@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Aidan Tomcy</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Aidan Tomcy</h1>
+      <h2>Web Developer.</h2>
+      <div class="links">
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="#stuff-i-use">Stuff I Use</a>
+        <a href="#projects">Projects</a>
+      </div>
+    </div>
+    <div class="about" id="about">
+      <h2>About</h2>
+      <img src="img/aidan.jpg" alt="Pic" />
+      <h2>Hi.</h2>
+      <p>
+        I am Aidan Tomcy, a web developer from Mumbai, India. Programming is
+        something<br />I enjoy a lot. I have a passion for learning new things
+        and finding ways to make things<br />better. I enjoy making websites for
+        others. Besides programming, I enjoy hacking (ethical)<br />and solving
+        puzzles.
+      </p>
+    </div>
+    <div class="contact" id="contact">
+      <h2>Contact</h2>
+      <p>
+        Email:
+        <a href="mailto:aidantomcy@gmail.com" class="email"
+          >aidantomcy@gmail.com</a
+        >
+        <br />
+        Phone: &nbsp;&nbsp;&nbsp;&nbsp;(I don't have a phone)
+      </p>
+      <div class="contact-links">
+        <img src="img/github.png" alt="" id="github-link" />
+        <img src="img/stack-overflow.svg" alt="" id="stack-overflow-link" />
+        <img src="img/codepen.svg" alt="" id="codepen-link" />
+        <img src="img/replit.svg" alt="" id="replit-link" />
+        <img src="img/codegrepper.png" alt="" id="codegrepper-link" />
+      </div>
+    </div>
+    <div class="stuff-i-use" id="stuff-i-use">
+      <h2>Stuff I Use</h2>
+      <p>
+        HTML<br />CSS<br />JavaScript<br />PHP<br />Python<br />Git<br />Node.js<br />VS
+        Code<br />Google Chrome
+      </p>
+    </div>
+    <div class="projects" id="projects">
+      <h2>Projects</h2>
+      <h3>Tresorita</h3>
+      <img src="img/tresorita.png" alt="" />
+      <p>
+        This website is made for Mr. Josi Cherian. The frontend code has been
+        taken from another repository, mentioned in the project README.
+        <br />
+        This is the github repository:
+        <span id="tresorita-repository" class="link"
+          >https://github.com/aidantomcy/tresorita-website</span
+        >
+      </p>
+      <h3>Saints for Us</h3>
+      <img src="img/saintsforus.png" alt="" />
+      <p>
+        This is a website about a few saints. It's still in the making.<br />This
+        is the repository:
+        <span id="saintsforus-repository" class="link" class="link"
+          >https://github.com/aidantomcy/saintsforus</span
+        >
+      </p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $("#github-link").on("click", () =>
+        location.replace("https://github.com/aidantomcy")
+      );
+      $("#stack-overflow-link").on("click", () =>
+        location.replace("https://stackoverflow.com/users/15765063/aidan-tomcy")
+      );
+      $("#codepen-link").on("click", () =>
+        location.replace("https://codepen.io/aidantomcy")
+      );
+      $("#replit-link").on("click", () =>
+        location.replace("https://repl.it/@aidantomcy")
+      );
+      $("#codegrepper-link").on("click", () =>
+        location.replace(
+          "https://www.codegrepper.com/profile/aidan-idqzkhobs5xn"
+        )
+      );
+      $("#tresorita-repository").on("click", () =>
+        location.replace("https://github.com/aidantomcy/tresorita-website")
+      );
+      $("#saintsforus-repository").on("click", () =>
+        location.replace("https://github.com/aidantomcy/saintsforus")
+      );
+    </script>
+  </body>
+</html>
