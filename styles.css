@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: #B6D0E2;
+  background-color: #b6d0e2;
   user-select: none;
 }
 
@@ -44,7 +44,7 @@ h2 {
   font-size: 100%;
 }
 
-a {
+.links a {
   color: black;
   text-transform: uppercase;
   text-decoration: none;
@@ -53,7 +53,8 @@ a {
   padding: 15px 20px;
   position: relative;
 }
-a:after {
+
+.links a:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -65,9 +66,15 @@ a:after {
   transition: width 0.3s ease 0.1s, left 0.3s ease 0.1s;
   width: 0;
 }
-a:hover:after {
+
+.links a:hover:after {
   width: 100%;
   left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 .header {
@@ -159,4 +166,26 @@ a:hover:after {
 
 .link:hover {
   cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  .links {
+    display: none;
+  }
+  .about p {
+    font-size: 18.5px;
+  }
+
+  .contact-links img {
+    padding: 10px;
+    width: 60px;
+  }
+
+  .projects img {
+    width: 370px;
+  }
+
+  .projects p {
+    font-size: 19px;
+  }
 }
