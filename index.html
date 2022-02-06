@@ -41,11 +41,21 @@
         Phone: &nbsp;&nbsp;&nbsp;&nbsp;(I don't have a phone)
       </p>
       <div class="contact-links">
-        <img src="img/github.png" alt="" id="github-link" />
-        <img src="img/stack-overflow.svg" alt="" id="stack-overflow-link" />
-        <img src="img/codepen.svg" alt="" id="codepen-link" />
-        <img src="img/replit.svg" alt="" id="replit-link" />
-        <img src="img/codegrepper.png" alt="" id="codegrepper-link" />
+        <a href="https://github.com/aidantomcy"
+          ><img src="img/github.png" alt=""
+        /></a>
+        <a href="https://stackoverflow.com/users/15765063/aidan-tomcy"
+          ><img src="img/stack-overflow.svg" alt=""
+        /></a>
+        <a href="https://codepen.io/aidantomcy"
+          ><img src="img/codepen.svg" alt=""
+        /></a>
+        <a href="https://replit.com/@AidanTomcy"
+          ><img src="img/replit.svg" alt=""
+        /></a>
+        <a href="https://www.codegrepper.com/profile/aidan-idqzkhobs5xn"
+          ><img src="img/codegrepper.png" alt=""
+        /></a>
       </div>
     </div>
     <div class="stuff-i-use" id="stuff-i-use">
@@ -60,12 +70,14 @@
       <h3>Tresorita</h3>
       <img src="img/tresorita.png" alt="" />
       <p>
-        This website is made for Mr. Josi Cherian.<br />The frontend code has been
-        taken from another repository,<br />mentioned in the project README.
+        This website is made for Mr. Josi Cherian.<br />The frontend code has
+        been taken from another repository, mentioned in the project README.
         <br />
         This is the github repository:
         <span id="tresorita-repository" class="link"
-          >https://github.com/aidantomcy/tresorita-website</span
+          ><a href="https://github.com/aidantomcy/tresorita-website"
+            >https://github.com/aidantomcy/tresorita-website</a
+          ></span
         >
       </p>
       <h3>Saints for Us</h3>
@@ -73,40 +85,18 @@
       <p>
         This is a website about a few saints. It's still in the making.<br />This
         is the repository:
-        <span id="saintsforus-repository" class="link" class="link"
-          >https://github.com/aidantomcy/saintsforus</span
+        <span class="link" class="link"
+          ><a href="https://github.com/aidantomcy/saintsforus"
+            >https://github.com/aidantomcy/saintsforus</a
+          ></span
         >
       </p>
     </div>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
     <script>
-      $(document).bind("contextmenu", (e) => {
+      document.addEventListener("contextmenu", (e) => {
         e.preventDefault();
       });
-
-      $("#github-link").on("click", () =>
-        location.replace("https://github.com/aidantomcy")
-      );
-      $("#stack-overflow-link").on("click", () =>
-        location.replace("https://stackoverflow.com/users/15765063/aidan-tomcy")
-      );
-      $("#codepen-link").on("click", () =>
-        location.replace("https://codepen.io/aidantomcy")
-      );
-      $("#replit-link").on("click", () =>
-        location.replace("https://repl.it/@aidantomcy")
-      );
-      $("#codegrepper-link").on("click", () =>
-        location.replace(
-          "https://www.codegrepper.com/profile/aidan-idqzkhobs5xn"
-        )
-      );
-      $("#tresorita-repository").on("click", () =>
-        location.replace("https://github.com/aidantomcy/tresorita-website")
-      );
-      $("#saintsforus-repository").on("click", () =>
-        location.replace("https://github.com/aidantomcy/saintsforus")
-      );
     </script>
   </body>
 </html>
