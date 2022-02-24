@@ -106,6 +106,7 @@ a {
   width: 10em;
   height: 3em;
   border: 2px solid #fa8142;
+  padding-top: 10px;
 }
 
 .button:hover {
