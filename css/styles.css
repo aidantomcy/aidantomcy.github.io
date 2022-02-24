@@ -78,7 +78,7 @@ a {
 
 .contact-imgs img {
   width: 4em;
-  padding: 20px 7px;
+  padding: 20px 10px;
 }
 
 .contact-imgs {
@@ -95,4 +95,20 @@ a {
 .stuff-i-use img {
   padding: 5px 5px;
   width: 4em;
+}
+
+.projects img {
+  width: 75em;
+}
+
+.button {
+  text-align: center;
+  width: 10em;
+  height: 3em;
+  border: 2px solid #fa8142;
+}
+
+.button:hover {
+  background: #fa8142;
+  color: #fff;
 }
