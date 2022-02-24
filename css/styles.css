@@ -13,6 +13,28 @@ body {
   user-select: none;
   background: #1f1f1f;
   color: #ccc;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
 .navbar {
@@ -33,4 +55,44 @@ body {
 .nav-item:hover {
   cursor: pointer;
   color: #ccc;
+}
+
+.about img {
+  width: 300px;
+  border-radius: 10%;
+  filter: grayscale(100%);
+  transform: translate(75%, -75%);
+}
+
+.contact a:hover {
+  color: #fff;
+}
+
+.contact-links img {
+  width: 3em;
+}
+
+.space-left {
+  transform: translate(300px, 50px);
+}
+
+.contact-imgs img {
+  width: 4em;
+  padding: 20px 7px;
+}
+
+.contact-imgs {
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  margin-top: 30px;
+  width: 21em;
+  border: 5px solid transparent;
+  border-radius: 15%;
+  border-image: linear-gradient(to right, #67b26f, #4ca2cd);
+  border-image-slice: 1;
+}
+
+.stuff-i-use img {
+  padding: 5px 5px;
+  width: 4em;
 }
