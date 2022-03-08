@@ -92,9 +92,23 @@ a {
   border-image-slice: 1;
 }
 
-.stuff-i-use img {
+.img-container {
   margin: 10px 10px;
-  width: 4em;
+  width: 6em;
+  height: 7.5em;
+  padding: 10px;
+  border: 2px solid #56a5eb;
+  border-radius: 15%;
+}
+
+.img-container p {
+  padding-top: 4px;
+}
+
+.img-container:hover {
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.9);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
 }
 
 .projects img {
