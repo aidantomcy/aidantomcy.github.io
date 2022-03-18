@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
+:root {
+  --button-color: #fa8142;
+}
+
 *,
 *::before,
 *::after {
@@ -119,12 +123,12 @@ a {
   text-align: center;
   width: 10em;
   height: 3em;
-  border: 2px solid #fa8142;
+  border: 2px solid var(--button-color);
   padding-top: 10px;
 }
 
 .button:hover {
-  background: #fa8142;
+  background: var(--button-color);
   color: #fff;
   box-shadow: 0 0.4rem 1.4rem 0 rgba(250, 129, 66, 0.9);
   transform: translateY(-0.1rem);
@@ -138,4 +142,43 @@ a {
   max-width: 700px;
   place-items: center;
   margin: 10px auto;
+}
+
+@media (max-width: 700px) {
+  .navbar {
+    display: none;
+  }
+
+  .imgs-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    transform: translate(-300px, -50px);
+    text-align: center;
+  }
+
+  .about img {
+    display: none;
+  }
+
+  .about p {
+    font-size: 0.8em;
+  }
+
+  .projects p {
+    font-size: 0.9em;
+  }
+
+  .projects img {
+    width: 30em;
+  }
+
+  .contact-imgs {
+    margin: 50px 75px;
+  }
 }
