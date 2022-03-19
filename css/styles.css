@@ -188,4 +188,8 @@ a {
     flex-direction: row;
     justify-content: center;
   }
+
+  .repo {
+    display: none;
+  }
 }
