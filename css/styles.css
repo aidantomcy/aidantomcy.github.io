@@ -49,7 +49,7 @@ a {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 100%;
+  width: 100vw;
   height: 70px;
   background: linear-gradient(to right, #00dbde, #fc00ff);
   font-size: 1.4em;
