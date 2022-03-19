@@ -161,6 +161,12 @@ a {
   color: var(--text-gray-300);
 }
 
+.dark-light-toggle {
+  position: absolute;
+  top: 80px;
+  right: 30px;
+}
+
 @media (max-width: 768px) {
   .navbar {
     display: none;
@@ -203,6 +209,10 @@ a {
   }
 
   .repo {
+    display: none;
+  }
+
+  .dark-light-toggle {
     display: none;
   }
 }
