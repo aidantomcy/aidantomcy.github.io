@@ -162,9 +162,7 @@ a {
 }
 
 .dark-light-toggle {
-  position: absolute;
-  top: 80px;
-  right: 30px;
+  margin: 30px 30px;
 }
 
 @media (max-width: 768px) {
