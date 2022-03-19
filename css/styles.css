@@ -5,6 +5,8 @@
   --text-color: #ccc;
   --hover-text-color: #fff;
   --background-color: #1f1f1f;
+  --text-gray-300: #cbd5e1;
+  --text-gray-500: #6b7280;
 }
 
 *,
@@ -149,6 +151,14 @@ a {
   max-width: 700px;
   place-items: center;
   margin: 10px auto;
+}
+
+.footer a {
+  color: var(--text-gray-500);
+}
+
+.footer a:hover {
+  color: var(--text-gray-300);
 }
 
 @media (max-width: 768px) {
