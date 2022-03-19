@@ -215,15 +215,7 @@ a {
     display: none;
   }
 
-  .dark-light-toggle-container {
-    margin: 0 auto;
-    position: relative;
-    top: 25px;
-  }
-
   .dark-light-toggle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: none;
   }
 }
