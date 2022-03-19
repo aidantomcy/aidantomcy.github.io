@@ -10,6 +10,11 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -17,7 +22,6 @@ body {
   user-select: none;
   background: #1f1f1f;
   color: #ccc;
-  overflow-x: hidden;
 }
 
 a {
