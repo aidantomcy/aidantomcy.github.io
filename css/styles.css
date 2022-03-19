@@ -184,6 +184,10 @@ a {
     text-align: center;
   }
 
+  .about {
+    margin-top: 75px;
+  }
+
   .about img {
     display: none;
   }
@@ -211,7 +215,15 @@ a {
     display: none;
   }
 
+  .dark-light-toggle-container {
+    margin: 0 auto;
+    position: relative;
+    top: 25px;
+  }
+
   .dark-light-toggle {
-    display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
