@@ -77,6 +77,10 @@ a {
   transform: translate(75%, -75%);
 }
 
+.about img:hover {
+  filter: grayscale(0%);
+}
+
 .contact a:hover {
   color: var(--hover-text-color);
 }
