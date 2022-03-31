@@ -12,7 +12,7 @@ To run this project locally, follow the steps below:
    $ npm install
    ```
 
-2. Build the CSS
+2. Build the CSS:
    ```
    $ npm run build
    ```
