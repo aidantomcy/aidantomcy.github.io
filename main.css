@@ -5,3 +5,15 @@
 .nav-item {
   @apply font-normal hidden md:inline-block p-1 sm:px-3 sm:py-2 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-800 transition-all;
 }
+
+.footer {
+  @apply flex flex-col justify-center items-start max-w-2xl mx-auto w-full mb-8 text-center;
+}
+
+.footer-hr {
+  @apply w-full border-gray-100 dark:border-gray-100 mb-8 mt-8;
+}
+
+.footer-links {
+  @apply w-full max-w-2xl grid grid-cols-1 gap-4 pb-16 sm:grid-cols-3;
+}
