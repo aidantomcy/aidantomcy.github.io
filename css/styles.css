@@ -148,6 +148,10 @@ a {
   transition: transform 150ms;
 }
 
+.button:active {
+  transform: scale(0.9);
+}
+
 .imgs-grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
