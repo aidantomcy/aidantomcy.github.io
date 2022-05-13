@@ -1,9 +1,11 @@
-$button-color: #fa8142;
-$text-color: #ccc;
-$hover-text-color: #fff;
-$background-color: #1f1f1f;
-$text-gray-300: #cbd5e1;
-$text-gray-500: #6b7280;
+:root {
+  --button-color: #fa8142;
+  --text-color: #ccc;
+  --hover-text-color: #fff;
+  --background-color: #1f1f1f;
+  --text-gray-300: #cbd5e1;
+  --text-gray-500: #6b7280;
+}
 
 *,
 *::before,
@@ -23,13 +25,13 @@ body {
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   user-select: none;
-  background: $background-color;
-  color: $text-color;
+  background: var(--background-color);
+  color: var(--text-color);
 }
 
 a {
   text-decoration: none;
-  color: $text-color;
+  color: var(--text-color);
 }
 
 ::-webkit-scrollbar {
@@ -64,7 +66,7 @@ a {
 
   &:hover {
     cursor: pointer;
-    color: $hover-text-color;
+    color: var(--hover-text-color);
   }
 }
 
@@ -83,7 +85,7 @@ a {
 
 .contact {
   a:hover {
-    color: $hover-text-color;
+    color: var(--hover-text-color);
   }
 }
 
@@ -142,12 +144,12 @@ a {
   text-align: center;
   width: 10em;
   height: 3em;
-  border: 2px solid $button-color;
+  border: 2px solid var(--button-color);
   padding-top: 10px;
 
   &:hover {
-    background: $button-color;
-    color: $hover-text-color;
+    background: var(--button-color);
+    color: var(--hover-text-color);
     box-shadow: 0 0.4rem 1.4rem 0 rgba(250, 129, 66, 0.9);
     transform: translateY(-0.1rem);
     transition: transform 150ms;
@@ -169,10 +171,10 @@ a {
 
 .footer {
   a {
-    color: $text-gray-500;
+    color: var(--text-gray-500);
 
     &:hover {
-      color: $text-gray-300;
+      color: var(--text-gray-300);
     }
   }
 }
