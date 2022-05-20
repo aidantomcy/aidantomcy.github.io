@@ -62,9 +62,16 @@ a {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  user-select: none;
   width: 100vw;
   height: 70px;
-  background: linear-gradient(to right, #00dbde, #fc00ff);
+  background: linear-gradient(
+    161.94deg,
+    rgb(255, 140, 90) 7.34%,
+    rgb(255, 84, 213) 21.14%,
+    rgb(128, 142, 253) 68.19%,
+    rgb(107, 215, 204) 96.01%
+  );
   font-size: 1.4em;
 }
 
