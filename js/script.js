@@ -26,9 +26,9 @@ const setDark = () => {
   localStorage.setItem("theme", "dark");
 };
 
-if (localStorage.getItem("theme") == null) {
+if (localStorage.getItem("theme") === null) {
   document.body.classList.add("dark");
-} else if (localStorage.getItem("theme") == "dark") {
+} else if (localStorage.getItem("theme") === "dark") {
   setDark();
 } else {
   setLight();
