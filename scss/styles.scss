@@ -24,9 +24,17 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  user-select: none;
   background: var(--background-color);
   color: var(--text-color);
+}
+
+::selection {
+  background: #ff8c5a;
+  color: #fff;
+}
+
+img {
+  user-select: none;
 }
 
 a {
@@ -122,6 +130,7 @@ a {
   padding: 10px;
   border: 2px solid #56a5eb;
   border-radius: 15%;
+  user-select: none;
 
   p {
     padding-top: 4px;
@@ -146,6 +155,7 @@ a {
   height: 3em;
   border: 2px solid var(--button-color);
   padding-top: 10px;
+  user-select: none;
 
   &:hover {
     background: var(--button-color);
