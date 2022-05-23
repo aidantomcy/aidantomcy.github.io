@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tailwindcss build -i main.css -o dist/main.css --minify",
     "dev": "tailwindcss build -i main.css -o dist/main.css --minify -w",
-    "compile_sass": "sass -w scss/styles.scss:css/styles.css --style compressed"
+    "compile:sass": "sass -w scss/styles.scss:css/styles.css --style compressed",
+    "compile:ts": "tsc -w"
   },
   "keywords": [],
   "author": "",
