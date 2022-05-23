@@ -17,7 +17,7 @@ To run this project locally, follow the steps below:
    $ npm run compile_sass
    ```
 
-3. Run this command to generate the Tailwind output file
+3. Run this command to generate the Tailwind output file:
    ```
    $ npm run build
    ```
