@@ -15,10 +15,16 @@ To run this project locally, follow the steps below:
 2. Compile the Sass Code:
 
    ```
-   $ npm run compile_sass
+   $ npm run compile:sass
    ```
 
-3. Run this command to generate the Tailwind output file:
+3. Compile the TypeScript code:
+
+   ```
+   $ npm run compile:ts
+   ```
+
+4. Run this command to generate the Tailwind output file:
    ```
    $ npm run build
    ```
@@ -26,4 +32,4 @@ To run this project locally, follow the steps below:
    ```
    $ npm run dev
    ```
-4. Open the index.html file in your browser.
+5. Open the index.html file in your browser.
