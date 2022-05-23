@@ -1,6 +1,6 @@
 # aidantomcy.github.io
 
-My portfolio website made with plain HTML, CSS and JavaScript, and a little bit of Tailwind CSS.
+My portfolio website made with HTML, SCSS, TypeScript, and a little bit of Tailwind CSS.
 
 ## Running locally
 
@@ -11,8 +11,9 @@ To run this project locally, follow the steps below:
    ```
    $ npm install
    ```
-   
+
 2. Compile the Sass Code:
+
    ```
    $ npm run compile_sass
    ```
@@ -21,7 +22,6 @@ To run this project locally, follow the steps below:
    ```
    $ npm run build
    ```
-     
    Or, run this command to watch for changes and recompile on save:
    ```
    $ npm run dev
