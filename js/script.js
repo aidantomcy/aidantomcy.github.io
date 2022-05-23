@@ -32,3 +32,4 @@ darkLightBtn.addEventListener("click", () => {
 document.addEventListener("contextmenu", (e) => {
     e.preventDefault();
 });
+//# sourceMappingURL=script.js.map
