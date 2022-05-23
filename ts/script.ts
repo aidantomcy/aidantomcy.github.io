@@ -6,7 +6,6 @@ const setLight = (): void => {
   darkLightBtn.innerHTML = '<div class="pb-2">Let there be darkness</div>';
   document.body.classList.remove("dark");
   document.body.classList.add("light");
-
   localStorage.setItem("theme", "light");
 };
 
