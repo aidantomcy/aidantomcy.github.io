@@ -11,9 +11,19 @@ To run this project locally, follow the steps below:
    ```
    $ npm install
    ```
+   
+2. Compile the Sass Code:
+   ```
+   $ npm run compile_sass
+   ```
 
-2. Build the CSS:
+3. Run this command to generate the Tailwind output file:
    ```
    $ npm run build
    ```
-3. Open the index.html file in your browser.
+     
+   Or, run this command to watch for changes and recompile on save:
+   ```
+   $ npm run dev
+   ```
+4. Open the index.html file in your browser.
