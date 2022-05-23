@@ -28,6 +28,23 @@ body {
   color: var(--text-color);
 }
 
+.dark {
+  --button-color: #fa8142;
+  --text-color: #ccc;
+  --hover-text-color: #fff;
+  --background-color: #1f1f1f;
+  --text-gray-300: #cbd5e1;
+  --text-gray-500: #6b7280;
+}
+
+.light {
+  --background-color: #fff;
+  --text-color: #333;
+  --hover-text-color: #000;
+  --text-gray-300: #ccc;
+  --text-gray-500: #a0aec0;
+}
+
 ::selection {
   background: #ff8c5a;
   color: #fff;
