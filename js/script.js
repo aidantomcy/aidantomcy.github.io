@@ -1,5 +1,4 @@
 const darkLightBtn = document.getElementById("dark-light-toggle");
-// const root = document.querySelector(":root");
 
 const setLight = () => {
   darkLightBtn.innerHTML = '<div class="pb-2">Let there be darkness</div>';
