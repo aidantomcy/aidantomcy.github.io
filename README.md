@@ -36,4 +36,4 @@ To run this project locally, follow the steps below:
    ```
    $ npx serve
    ```
-6. Open your browser and head to [http://localhost:5000](http://localhost:5000)
+6. Open your browser and head to [http://localhost:3000](http://localhost:3000)
