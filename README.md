@@ -32,4 +32,8 @@ To run this project locally, follow the steps below:
    ```
    $ npm run dev
    ```
-5. Open the index.html file in your browser.
+5. Run this command to run a local server:
+   ```
+   $ npx serve
+   ```
+6. Open your browser and head to [http://localhost:5000](http://localhost:5000)
