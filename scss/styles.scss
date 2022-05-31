@@ -108,6 +108,7 @@ a {
     border-radius: 10%;
     filter: grayscale(100%);
     transform: translate(75%, -75%);
+    margin-top: 1.5rem;
 
     &:hover {
       filter: grayscale(0%);
