@@ -134,10 +134,8 @@ a {
 .contact-imgs {
   margin-top: 30px;
   width: 21em;
-  border: 2px solid transparent;
-  border-radius: 15%;
-  border-image: linear-gradient(to right, #67b26f, #4ca2cd);
-  border-image-slice: 1;
+  border: 2px solid #062b44;
+  border-radius: 0.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -145,6 +143,16 @@ a {
   img {
     width: 4em;
     padding: 20px 10px;
+
+    &:hover {
+      // transform: scale(0.9);
+      // transform: translateY(-0.1rem);
+      transition: transform 0.2s ease-in;
+    }
+  }
+
+  .stack-overflow-image {
+    width: 3.5em;
   }
 }
 
@@ -155,7 +163,6 @@ a {
   padding: 10px;
   border: 2px solid #56a5eb;
   border-radius: 15%;
-  user-select: none;
 
   p {
     padding-top: 4px;
@@ -181,7 +188,6 @@ a {
   border: 2px solid var(--button-color);
   border-radius: 0.5rem;
   padding-top: 10px;
-  user-select: none;
 
   &:hover {
     background-color: var(--button-color);
