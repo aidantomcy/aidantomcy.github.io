@@ -9,31 +9,25 @@ To run this project locally, follow the steps below:
 1. Install the dependencies:
 
    ```
-   $ npm install
+   $ yarn
    ```
 
-2. Compile the Sass Code:
+2. Compile the TypeScript and Sass code with Webpack:
 
    ```
-   $ npm run compile:sass
+   $ yarn build
    ```
 
-3. Compile the TypeScript code:
-
+3. Run this command to generate the Tailwind output file:
    ```
-   $ npm run compile:ts
-   ```
-
-4. Run this command to generate the Tailwind output file:
-   ```
-   $ npm run build
+   $ yarn tailwind:prod
    ```
    Or, run this command to watch for changes and recompile on save:
    ```
-   $ npm run dev
+   $ yarn tailwind:dev
    ```
-5. Run this command to run a local server:
+4. Run this command to run a local server:
    ```
    $ npx serve
    ```
-6. Open your browser and head to [http://localhost:3000](http://localhost:3000)
+5. Open your browser and head to [http://localhost:3000](http://localhost:3000)
