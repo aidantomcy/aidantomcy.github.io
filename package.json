@@ -6,9 +6,7 @@
   "scripts": {
     "tailwind:prod": "tailwindcss build -i main.css -o dist/main.css --minify",
     "tailwind:dev": "tailwindcss build -i main.css -o dist/main.css --minify -w",
-    "build": "webpack",
-    "compile:sass": "sass -w scss/styles.scss:css/styles.css --style compressed",
-    "compile:ts": "tsc -w"
+    "build": "webpack"
   },
   "keywords": [],
   "author": "",
