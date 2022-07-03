@@ -3,17 +3,17 @@
 @tailwind utilities;
 
 .nav-item {
-  @apply font-normal hidden md:inline-block p-1 sm:px-3 sm:py-2 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-800 transition-all;
+  @apply hidden rounded-lg p-1 font-normal transition-all hover:bg-gray-200 dark:hover:bg-gray-800 sm:px-3 sm:py-2 md:inline-block;
 }
 
 .footer {
-  @apply flex flex-col justify-center items-start max-w-2xl mx-auto w-full mb-8 text-center;
+  @apply mx-auto mb-8 flex w-full max-w-2xl flex-col items-start justify-center text-center;
 }
 
 .footer-hr {
-  @apply w-full border-gray-100 dark:border-gray-100 mb-8 mt-8;
+  @apply mb-8 mt-8 w-full border-gray-100 dark:border-gray-100;
 }
 
 .footer-links {
-  @apply w-full max-w-2xl grid grid-cols-1 gap-4 pb-16 sm:grid-cols-3;
+  @apply grid w-full max-w-2xl grid-cols-1 gap-4 pb-16 sm:grid-cols-3;
 }
