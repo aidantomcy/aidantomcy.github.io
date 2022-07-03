@@ -6,7 +6,8 @@
   "scripts": {
     "tailwind:prod": "tailwindcss build -i main.css -o dist/main.css --minify",
     "tailwind:dev": "tailwindcss build -i main.css -o dist/main.css --minify -w",
-    "build": "webpack"
+    "build": "webpack",
+    "format": "prettier --write ."
   },
   "keywords": [],
   "author": "",
