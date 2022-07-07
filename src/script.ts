@@ -5,9 +5,13 @@ const darkLightBtn = <HTMLButtonElement>(
   document.getElementById("dark-light-toggle")
 );
 
-if (localStorage.getItem("theme") === null) {
-  document.body.classList.add("dark");
-} else if (localStorage.getItem("theme") === "dark") {
+if (
+  localStorage.theme === "dark" ||
+  !(
+    "theme" in localStorage &&
+    window.matchMedia("(prefers-color-scheme: dark)").matches
+  )
+) {
   darkLightBtn.innerHTML = '<div class="pb-2">Let there be light</div>';
   setDark();
 } else {
