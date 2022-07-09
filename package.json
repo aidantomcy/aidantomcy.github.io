@@ -6,8 +6,9 @@
   "scripts": {
     "tailwind:prod": "tailwindcss build -i main.css -o dist/main.css --minify",
     "tailwind:dev": "tailwindcss build -i main.css -o dist/main.css --minify -w",
-    "dev": "webpack serve",
+    "dev": "webpack --watch",
     "build": "webpack",
+    "serve": "webpack serve",
     "format": "prettier --write .",
     "lint": "eslint .",
     "test": "cypress run",
