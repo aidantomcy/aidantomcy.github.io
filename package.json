@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "repository": {
+    "url": "https://github.com/aidantomcy/aidantomcy.github.io"
+  },
   "scripts": {
     "tailwind:prod": "tailwindcss build -i main.css -o dist/main.css --minify",
     "tailwind:dev": "tailwindcss build -i main.css -o dist/main.css --minify -w",
