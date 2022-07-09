@@ -9,7 +9,9 @@
     "dev": "webpack serve",
     "build": "webpack",
     "format": "prettier --write .",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test": "cypress run",
+    "test:interactive": "cypress open"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +23,7 @@
     "autoprefixer": "^10.4.4",
     "css-loader": "^6.7.1",
     "css-minimizer-webpack-plugin": "^4.0.0",
+    "cypress": "^10.3.0",
     "eslint": "^8.19.0",
     "mini-css-extract-plugin": "^2.6.1",
     "postcss": "^8.4.12",
