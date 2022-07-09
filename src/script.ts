@@ -12,20 +12,16 @@ if (
     window.matchMedia("(prefers-color-scheme: dark)").matches
   )
 ) {
-  darkLightBtn.textContent = "Let there be light";
-  setDark();
+  setDark(darkLightBtn);
 } else {
-  darkLightBtn.textContent = "Let there be darkness";
-  setLight();
+  setLight(darkLightBtn);
 }
 
 darkLightBtn.addEventListener("click", () => {
   if (document.body.classList.contains("dark")) {
-    darkLightBtn.textContent = "Let there be darkness";
-    setLight();
+    setLight(darkLightBtn);
   } else {
-    darkLightBtn.textContent = "Let there be light";
-    setDark();
+    setDark(darkLightBtn);
   }
 });
 
