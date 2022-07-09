@@ -7,7 +7,6 @@ const BundleAnalyzerPlugin =
 
 module.exports = {
   mode: "development",
-  watch: true,
   entry: {
     bundle: path.resolve(__dirname, "src/script.ts"),
   },
@@ -16,6 +15,16 @@ module.exports = {
     filename: "bundle.js",
     path: path.resolve(__dirname, "dist"),
     assetModuleFilename: "[name][ext]",
+  },
+  devServer: {
+    static: {
+      directory: __dirname,
+    },
+    port: 3000,
+    open: true,
+    hot: true,
+    compress: true,
+    historyApiFallback: true,
   },
   module: {
     rules: [
