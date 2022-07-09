@@ -12,19 +12,19 @@ if (
     window.matchMedia("(prefers-color-scheme: dark)").matches
   )
 ) {
-  darkLightBtn.innerHTML = '<div class="pb-2">Let there be light</div>';
+  darkLightBtn.textContent = "Let there be light";
   setDark();
 } else {
-  darkLightBtn.innerHTML = '<div class="pb-2">Let there be darkness</div>';
+  darkLightBtn.textContent = "Let there be darkness";
   setLight();
 }
 
 darkLightBtn.addEventListener("click", () => {
   if (document.body.classList.contains("dark")) {
-    darkLightBtn.innerHTML = '<div class="pb-2">Let there be darkness</div>';
+    darkLightBtn.textContent = "Let there be darkness";
     setLight();
   } else {
-    darkLightBtn.innerHTML = '<div class="pb-2">Let there be light</div>';
+    darkLightBtn.textContent = "Let there be light";
     setDark();
   }
 });
