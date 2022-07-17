@@ -102,6 +102,16 @@ a {
   }
 }
 
+.header {
+  h1 {
+    width: 350px;
+    background-image: linear-gradient(to left, #fa8142, #ff4088);
+    background-clip: text;
+    color: transparent;
+    padding-bottom: 0.5rem;
+  }
+}
+
 .about {
   img {
     width: 300px;
