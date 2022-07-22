@@ -250,6 +250,12 @@ a {
     padding: 0;
     transform: translate(-300px, -50px);
     text-align: center;
+
+    h1 {
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+    }
   }
 
   .about {
@@ -277,9 +283,8 @@ a {
   }
 
   .contact-imgs {
-    width: 100%;
+    width: 100vw;
     display: flex;
-    flex-direction: row;
     justify-content: center;
   }
 
