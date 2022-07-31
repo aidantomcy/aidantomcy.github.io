@@ -17,3 +17,7 @@
 .footer-links {
   @apply grid w-full max-w-2xl grid-cols-1 gap-4 pb-16 sm:grid-cols-3;
 }
+
+.button {
+  @apply mt-4 flex h-[3em] w-[10em] border-spacing-5 items-center justify-center rounded-lg text-center hover:bg-[#fa8142] hover:text-white;
+}

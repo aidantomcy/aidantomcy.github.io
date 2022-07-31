@@ -188,16 +188,9 @@ a {
 }
 
 .button {
-  text-align: center;
-  width: 10em;
-  height: 3em;
   border: 2px solid var(--button-color);
-  border-radius: 0.5rem;
-  padding-top: 10px;
 
   &:hover {
-    background-color: var(--button-color);
-    color: var(--hover-text-color);
     transform: translateY(-0.1rem);
     transition: background-color 0.4s ease;
   }
