@@ -19,5 +19,5 @@
 }
 
 .button {
-  @apply mt-4 flex h-[3em] w-[10em] border-spacing-5 items-center justify-center rounded-lg text-center hover:bg-[#fa8142] hover:text-white;
+  @apply mt-4 flex h-[3em] w-[10em] border-spacing-5 items-center justify-center rounded-lg text-center hover:bg-light-orange hover:text-white;
 }
