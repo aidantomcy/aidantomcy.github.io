@@ -77,18 +77,18 @@ a {
   box-shadow: none;
   border-radius: 4px;
   min-height: 40px;
+
+  &:hover {
+    background: #404344;
+  }
+
+  &:active {
+    background: #4a4c4d;
+  }
 }
 
 ::-webkit-scrollbar-track {
   margin: 3px 0;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #404344;
-}
-
-::-webkit-scrollbar-thumb:active {
-  background: #4a4c4d;
 }
 
 .navbar {
