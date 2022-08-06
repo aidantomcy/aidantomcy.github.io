@@ -10,7 +10,7 @@ module.exports = {
   entry: {
     bundle: path.resolve(__dirname, "src/script.ts"),
   },
-  devtool: "inline-source-map",
+  devtool: "source-map",
   output: {
     filename: "bundle.js",
     path: path.resolve(__dirname, "dist"),
