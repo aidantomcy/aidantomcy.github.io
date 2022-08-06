@@ -141,6 +141,10 @@ a {
       filter: grayscale(0%);
     }
   }
+
+  p {
+    width: clamp(50ch, 50%, 75ch);
+  }
 }
 
 .contact {
@@ -269,9 +273,7 @@ a {
 
   .about {
     margin-top: 75px;
-  }
 
-  .about {
     img {
       display: none;
     }
@@ -301,7 +303,10 @@ a {
     display: none;
   }
 
-  .dark-light-toggle {
-    display: none;
+  .dark-light-toggle-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
