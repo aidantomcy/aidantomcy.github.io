@@ -14,8 +14,8 @@
     "serve": "webpack serve",
     "format": "prettier --write .",
     "lint": "eslint .",
-    "test": "cypress run",
-    "test:interactive": "cypress open"
+    "test": "playwright test",
+    "test:interactive": "playwright test --headed"
   },
   "keywords": [],
   "author": "",
