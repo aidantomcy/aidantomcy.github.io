@@ -21,6 +21,7 @@ const config: PlaywrightTestConfig = {
      */
     timeout: 5000,
   },
+  globalTimeout: 3000000,
   /* Run tests in files in parallel */
   fullyParallel: true,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
@@ -101,8 +102,8 @@ const config: PlaywrightTestConfig = {
   webServer: {
     command: "yarn serve",
     port: 3000,
+    timeout: 3000000,
   },
 };
 
 export default config;
-
