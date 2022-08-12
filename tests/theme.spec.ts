@@ -5,7 +5,7 @@ test("functionality to change theme is working as expected", async ({
 }) => {
   const port = 3000;
   const baseUrl = `http://localhost:${port}`;
-  await page.goto(baseUrl);
+  await page.goto(baseUrl, { timeout: 300000 });
 
   const updateThemeButton = page.locator("#dark-light-toggle");
   const body = page.locator("body");
