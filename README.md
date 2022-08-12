@@ -12,10 +12,16 @@ To run this project locally, follow the steps below:
     $ yarn
     ```
 
-2. Compile the TypeScript and Sass code with Webpack:
+2. Build the TypeScript and Sass code with Webpack:
 
     ```
     $ yarn build
+    ```
+
+    Or, run this command to watch for changes and rebuild the code on save:
+
+    ```
+    $ yarn dev
     ```
 
 3. Run this command to generate the Tailwind output file:
@@ -26,8 +32,12 @@ To run this project locally, follow the steps below:
     ```
     $ yarn tailwind:dev
     ```
-4. Run this command to run a local server:
+4. Run this command to server the application:
     ```
-    $ npx serve
+    $ yarn serve
     ```
 5. Open your browser and head to [http://localhost:3000](http://localhost:3000)
+
+## Testing
+
+This app uses Playwright for testing. Run tests with `yarn test`.
