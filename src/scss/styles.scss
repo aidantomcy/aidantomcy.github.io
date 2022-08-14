@@ -5,6 +5,9 @@
   --background-color: #1f1f1f;
   --text-gray-300: #cbd5e1;
   --text-gray-500: #6b7280;
+  --gradient-color-1: #fa8142;
+  --gradient-color-2: #ff4088;
+  --gradient-angle: 270deg;
 }
 
 *,
@@ -119,13 +122,27 @@ a {
   }
 }
 
+.gradient-text {
+  background-image: linear-gradient(
+    var(--gradient-angle),
+    var(--gradient-color-1),
+    var(--gradient-color-2)
+  );
+  background-clip: text;
+  color: transparent;
+  padding-bottom: 0.6rem;
+}
+
 .header {
   h1 {
     width: 350px;
-    background-image: linear-gradient(to left, #fa8142, #ff4088);
-    background-clip: text;
-    color: transparent;
-    padding-bottom: 0.6rem;
+  }
+
+  h2 {
+    --gradient-color-1: #00aaff;
+    --gradient-color-2: #00ff6c;
+    --gradient-angle: 90deg;
+    width: 275px;
   }
 }
 
