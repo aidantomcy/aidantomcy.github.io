@@ -1,5 +1,5 @@
 import "./scss/styles.scss";
-import { setDark, setLight } from "./utils/theme";
+import { setTheme } from "./utils/theme";
 
 const darkLightBtn = <HTMLButtonElement>(
   document.getElementById("dark-light-toggle")
@@ -12,19 +12,15 @@ if (
     window.matchMedia("(prefers-color-scheme: dark)").matches
   )
 ) {
-  setDark(darkLightBtn);
+  setTheme("dark", darkLightBtn);
 } else {
-  setLight(darkLightBtn);
+  setTheme("light", darkLightBtn);
 }
 
 darkLightBtn.addEventListener("click", () => {
   if (document.body.classList.contains("dark")) {
-    setLight(darkLightBtn);
-  } else {
-    setDark(darkLightBtn);
+    setTheme("light", darkLightBtn);
+  } else if (document.body.classList.contains("light")) {
+    setTheme("dark", darkLightBtn);
   }
-});
-
-document.addEventListener("contextmenu", (e: Event) => {
-  e.preventDefault();
 });
