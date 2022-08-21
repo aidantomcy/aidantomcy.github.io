@@ -2,8 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+.navbar {
+  @apply flex h-[70px] w-screen select-none items-center justify-around text-2xl;
+  background: linear-gradient(
+    161.94deg,
+    rgb(255, 140, 90) 7.34%,
+    rgb(255, 84, 213) 21.14%,
+    rgb(128, 142, 253) 68.19%,
+    rgb(107, 215, 204) 96.01%
+  );
+}
+
 .nav-item {
-  @apply hidden rounded-lg p-1 font-normal transition-all hover:bg-gray-200 dark:hover:bg-gray-800 sm:px-3 sm:py-2 md:inline-block;
+  @apply hidden rounded-lg p-1 py-3 px-5 font-normal uppercase text-white transition-all hover:cursor-pointer hover:bg-gray-200 hover:text-black dark:hover:bg-gray-800 dark:hover:text-white sm:px-3 sm:py-2 md:inline-block;
 }
 
 .footer {
@@ -19,5 +30,5 @@
 }
 
 .button {
-  @apply mt-4 flex h-[3em] w-[10em] border-spacing-5 items-center justify-center rounded-lg text-center hover:bg-light-orange hover:text-white;
+  @apply mt-4 flex h-14 w-44 border-spacing-5 items-center justify-center rounded-lg text-center hover:bg-light-orange hover:text-white;
 }

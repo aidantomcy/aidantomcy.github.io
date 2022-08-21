@@ -1,3 +1,5 @@
+@use "./mixins";
+
 :root {
   --button-color: #fa8142;
   --text-color: #ccc;
@@ -32,20 +34,11 @@ body {
 }
 
 .dark {
-  --button-color: #fa8142;
-  --text-color: #ccc;
-  --hover-text-color: #fff;
-  --background-color: #1f1f1f;
-  --text-gray-300: #cbd5e1;
-  --text-gray-500: #6b7280;
+  @include mixins.darkTheme;
 }
 
 .light {
-  --background-color: #fff;
-  --text-color: #333;
-  --hover-text-color: #000;
-  --text-gray-300: #ccc;
-  --text-gray-500: #a0aec0;
+  @include mixins.lightTheme;
 }
 
 ::selection {
@@ -92,34 +85,6 @@ a {
 
 ::-webkit-scrollbar-track {
   margin: 3px 0;
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  user-select: none;
-  width: 100vw;
-  height: 70px;
-  background: linear-gradient(
-    161.94deg,
-    rgb(255, 140, 90) 7.34%,
-    rgb(255, 84, 213) 21.14%,
-    rgb(128, 142, 253) 68.19%,
-    rgb(107, 215, 204) 96.01%
-  );
-  font-size: 1.4em;
-}
-
-.nav-item {
-  padding: 0.2em 0.5em;
-  text-transform: uppercase;
-  color: white;
-
-  &:hover {
-    cursor: pointer;
-    color: var(--hover-text-color);
-  }
 }
 
 .gradient-text {
