@@ -34,11 +34,11 @@ body {
 }
 
 .dark {
-  @include mixins.darkTheme;
+  @include mixins.theme($darkTheme: true, $lightTheme: false);
 }
 
 .light {
-  @include mixins.lightTheme;
+  @include mixins.theme($darkTheme: false, $lightTheme: true);
 }
 
 ::selection {

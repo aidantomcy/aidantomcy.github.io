@@ -1,16 +1,16 @@
-@mixin darkTheme {
-  --button-color: #fa8142;
-  --text-color: #ccc;
-  --hover-text-color: #fff;
-  --background-color: #1f1f1f;
-  --text-gray-300: #cbd5e1;
-  --text-gray-500: #6b7280;
-}
-
-@mixin lightTheme {
-  --background-color: #fff;
-  --text-color: #333;
-  --hover-text-color: #000;
-  --text-gray-300: #ccc;
-  --text-gray-500: #a0aec0;
+@mixin theme($darkTheme: true, $lightTheme: false) {
+  @if $darkTheme {
+    --button-color: #fa8142;
+    --text-color: #ccc;
+    --hover-text-color: #fff;
+    --background-color: #1f1f1f;
+    --text-gray-300: #cbd5e1;
+    --text-gray-500: #6b7280;
+  } @else if $lightTheme {
+    --background-color: #fff;
+    --text-color: #333;
+    --hover-text-color: #000;
+    --text-gray-300: #ccc;
+    --text-gray-500: #a0aec0;
+  }
 }
