@@ -6,10 +6,16 @@ My portfolio website made with HTML, SCSS, TypeScript, and a little bit of Tailw
 
 To run this project locally, follow the steps below:
 
-1. Install the dependencies:
+1. Install the dependencies with Yarn:
 
     ```
     $ yarn
+    ```
+      
+    Or, with NPM:
+
+    ```
+    $ npm install
     ```
 
 2. Build the TypeScript and Sass code with Webpack:
