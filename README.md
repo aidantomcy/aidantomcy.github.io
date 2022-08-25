@@ -32,7 +32,7 @@ To run this project locally, follow the steps below:
     ```
     $ yarn tailwind:dev
     ```
-4. Run this command to server the application:
+4. Run this command to serve the application:
     ```
     $ yarn serve
     ```
