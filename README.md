@@ -11,14 +11,14 @@ To run this project locally, follow the steps below:
     ```
     $ yarn
     ```
-      
+
     Or, with NPM:
 
     ```
     $ npm install
     ```
 
-2. Build the TypeScript and Sass code with Webpack:
+2. Compile the TypeScript and Sass code with Webpack:
 
     ```
     $ yarn build
