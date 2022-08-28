@@ -1,12 +1,19 @@
 /// <reference path="../types/theme.d.ts" />
-let btnText: BtnText = "Let there be darkness";
+const themeConfig = {
+  theme: "dark",
+  btnText: "Let there be darkness",
+};
 
 const setTheme = (theme: Themes, btn: HTMLButtonElement): void => {
-  btnText = theme === "dark" ? "Let there be light" : "Let there be darkness";
-  btn.textContent = btnText;
-  document.body.classList.remove(theme === "dark" ? "light" : "dark");
-  document.body.classList.add(theme);
-  localStorage.setItem("theme", theme);
+  themeConfig.btnText =
+    theme === "dark" ? "Let there be light" : "Let there be darkness";
+  btn.textContent = themeConfig.btnText;
+  themeConfig.theme = theme;
+  document.body.classList.remove(
+    themeConfig.theme === "dark" ? "light" : "dark"
+  );
+  document.body.classList.add(themeConfig.theme);
+  localStorage.setItem("theme", themeConfig.theme);
 };
 
 export { setTheme };
