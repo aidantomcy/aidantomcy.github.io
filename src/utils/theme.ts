@@ -1,5 +1,4 @@
-type Themes = "dark" | "light";
-type BtnText = "Let there be darkness" | "Let there be light";
+/// <reference path="../types/theme.d.ts" />
 let btnText: BtnText = "Let there be darkness";
 
 const setTheme = (theme: Themes, btn: HTMLButtonElement): void => {
