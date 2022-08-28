@@ -13,5 +13,6 @@ module.exports = {
   plugins: ["@typescript-eslint"],
   rules: {
     "@typescript-eslint/no-var-requires": 0,
+    "@typescript-eslint/triple-slash-reference": 0,
   },
 };
