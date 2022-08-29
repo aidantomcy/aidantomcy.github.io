@@ -1,5 +1,5 @@
 /// <reference path="../types/theme.d.ts" />
-const themeConfig = {
+const themeConfig: ThemeConfig = {
   theme: "dark",
   btnText: "Let there be darkness",
 };
