@@ -1,6 +1,7 @@
 {
   "files.exclude": {
-    "**/playwright-report": true
+    "**/playwright-report": true,
+    "**/node_modules" :true
   },
   "workbench.editor.enablePreview": false
 }
