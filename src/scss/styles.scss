@@ -116,7 +116,7 @@ a {
     width: 300px;
     border-radius: 10%;
     filter: grayscale(100%);
-    transform: translate(75%, -75%);
+    translate: 75% -75%;
     margin-top: 1.5rem;
 
     &:hover {
@@ -142,7 +142,7 @@ a {
 }
 
 .space-left {
-  transform: translate(300px, 50px);
+  translate: 300px 50px;
 }
 
 .contact-imgs {
@@ -184,9 +184,8 @@ a {
   }
 
   &:hover {
-    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.9);
-    transform: translateY(-0.1rem);
-    transition: transform 150ms;
+    translate: 0 -0.3rem;
+    transition: translate 150ms;
   }
 }
 
@@ -200,12 +199,12 @@ a {
   border: 2px solid var(--button-color);
 
   &:hover {
-    transform: translateY(-0.1rem);
+    translate: 0 -0.1rem;
     transition: background-color 0.4s ease;
   }
 
   &:active {
-    transform: scale(0.98);
+    scale: 0.98;
   }
 }
 
@@ -246,7 +245,6 @@ a {
     flex-direction: column;
     margin: 40px 0;
     padding: 0;
-    transform: translate(-300px, -50px);
     text-align: center;
 
     h1 {
