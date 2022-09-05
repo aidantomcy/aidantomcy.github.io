@@ -7,5 +7,17 @@
   "files.associations": {
     "*.css": "tailwindcss"
   },
+  "tailwindCSS.files.exclude": [
+    "**/.git/**",
+    "**/node_modules/**",
+    "**/.hg/**",
+    "**/dist/**"
+  ],
+  "tailwindCSS.emmetCompletions": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": "off",
+    "strings": true
+  },
   "workbench.editor.enablePreview": false
 }
