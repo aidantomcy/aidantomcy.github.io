@@ -2,7 +2,8 @@
   "files.exclude": {
     "**/playwright-report": true,
     "**/node_modules": true,
-    "**/test-results": true
+    "**/test-results": true,
+    "**/.dccache": true
   },
   "files.associations": {
     "*.css": "tailwindcss"
