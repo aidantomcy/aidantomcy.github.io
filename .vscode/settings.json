@@ -4,5 +4,8 @@
     "**/node_modules": true,
     "**/test-results": true
   },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
   "workbench.editor.enablePreview": false
 }
