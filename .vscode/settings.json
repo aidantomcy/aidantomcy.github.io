@@ -21,5 +21,6 @@
     "strings": true
   },
   "workbench.editor.enablePreview": false,
-  "explorer.fileNesting.enabled": true
+  "explorer.fileNesting.enabled": true,
+  "editor.stickyScroll.enabled": true
 }
