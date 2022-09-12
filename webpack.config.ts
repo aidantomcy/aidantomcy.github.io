@@ -1,20 +1,18 @@
-const path = require("path");
-const TerserPlugin = require("terser-webpack-plugin");
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
-const BundleAnalyzerPlugin =
-  require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
+import { resolve } from "path";
+import { BundleAnalyzerPlugin } from "webpack-bundle-analyzer";
+import * as TerserPlugin from "terser-webpack-plugin";
+import * as MiniCssExtractPlugin from "mini-css-extract-plugin";
+import * as CssMinimizerPlugin from "css-minimizer-webpack-plugin";
 
-/** @type {import("webpack").Configuration} */
-module.exports = {
+const config = {
   mode: "development",
   entry: {
-    bundle: path.resolve(__dirname, "src/script.ts"),
+    bundle: resolve(__dirname, "src/script.ts"),
   },
   devtool: "source-map",
   output: {
     filename: "bundle.js",
-    path: path.resolve(__dirname, "dist"),
+    path: resolve(__dirname, "dist"),
     assetModuleFilename: "[name][ext]",
   },
   devServer: {
@@ -61,3 +59,5 @@ module.exports = {
   },
   plugins: [new BundleAnalyzerPlugin(), new MiniCssExtractPlugin()],
 };
+
+export default config;
