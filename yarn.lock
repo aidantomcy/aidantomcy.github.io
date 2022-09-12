@@ -415,6 +415,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/webpack-bundle-analyzer@npm:^4.4.2":
+  version: 4.4.2
+  resolution: "@types/webpack-bundle-analyzer@npm:4.4.2"
+  dependencies:
+    "@types/node": "*"
+    tapable: ^2.2.0
+    webpack: ^5
+  checksum: 013260f0122e8d9d7041b16eb71cb25695019d57648d96774ad4a73345a25d9cd1e9667073cc8548110a3c1519321c93a085bbfaa479a983fab72d9eab8143b2
+  languageName: node
+  linkType: hard
+
 "@types/ws@npm:^8.5.1":
   version: 8.5.3
   resolution: "@types/ws@npm:8.5.3"
@@ -854,6 +865,7 @@ __metadata:
   dependencies:
     "@playwright/test": ^1.25.2
     "@types/node": ^18.7.16
+    "@types/webpack-bundle-analyzer": ^4.4.2
     "@typescript-eslint/eslint-plugin": ^5.36.2
     "@typescript-eslint/parser": ^5.36.2
     autoprefixer: ^10.4.8
@@ -5447,7 +5459,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack@npm:^5.74.0":
+"webpack@npm:^5, webpack@npm:^5.74.0":
   version: 5.74.0
   resolution: "webpack@npm:5.74.0"
   dependencies:
