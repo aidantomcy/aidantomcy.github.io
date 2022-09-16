@@ -1,7 +1,9 @@
-declare type Themes = "dark" | "light";
-declare type BtnText = "Let there be darkness" | "Let there be light";
+declare namespace ThemeTypes {
+  export type Themes = "dark" | "light";
+  export type BtnText = "Let there be darkness" | "Let there be light";
 
-declare interface ThemeConfig {
-  theme: Themes;
-  btnText: BtnText;
+  export interface ThemeConfig {
+    theme: Themes;
+    btnText: BtnText;
+  }
 }
