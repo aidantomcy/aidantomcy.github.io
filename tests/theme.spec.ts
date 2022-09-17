@@ -10,9 +10,9 @@ test("functionality to change theme is working as expected", async ({
   const updateThemeButton = page.locator("#dark-light-toggle");
   const body = page.locator("body");
 
-  await expect(updateThemeButton).toHaveText("Let there be light");
-  await expect(body).toHaveClass("dark");
+  await expect(updateThemeButton).toHaveText(/Let there be light/);
+  await expect(body).toHaveClass(/dark/);
   updateThemeButton.click();
-  await expect(updateThemeButton).toHaveText("Let there be darkness");
-  await expect(body).toHaveClass("light");
+  await expect(updateThemeButton).toHaveText(/Let there be darkness/);
+  await expect(body).toHaveClass(/light/);
 });
