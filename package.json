@@ -7,8 +7,8 @@
     "url": "https://github.com/aidantomcy/aidantomcy.github.io"
   },
   "scripts": {
-    "tailwind:prod": "tailwindcss build -i main.css -o dist/main.css --minify",
-    "tailwind:dev": "tailwindcss build -i main.css -o dist/main.css --minify -w",
+    "tailwindcss:prod": "tailwindcss build -i main.css -o dist/main.css --minify",
+    "tailwindcss:dev": "tailwindcss build -i main.css -o dist/main.css --minify -w",
     "dev": "webpack --watch",
     "build": "webpack",
     "serve": "webpack serve",
