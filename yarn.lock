@@ -3125,9 +3125,9 @@ totalist@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/totalist/-/totalist-1.1.0.tgz#a4d65a3e546517701e3e5c37a47a70ac97fe56df"
 
-ts-loader@^9.3.1:
-  version "9.4.0"
-  resolved "https://registry.yarnpkg.com/ts-loader/-/ts-loader-9.4.0.tgz#b3f4b4d8553f3a15bef512f123fb488669a2ffc6"
+ts-loader@^9.4.1:
+  version "9.4.1"
+  resolved "https://registry.yarnpkg.com/ts-loader/-/ts-loader-9.4.1.tgz#b6f3d82db0eac5a8295994f8cb5e4940ff6b1060"
   dependencies:
     chalk "^4.1.0"
     enhanced-resolve "^5.0.0"
