@@ -33,6 +33,10 @@ body {
   color: var(--text-color);
 }
 
+p {
+  width: clamp(50ch, 50%, 75ch);
+}
+
 .dark {
   @include mixins.theme($darkTheme: true, $lightTheme: false);
 }
