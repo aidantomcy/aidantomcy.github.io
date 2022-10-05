@@ -58,6 +58,6 @@ const config = {
     minimizer: [new TerserPlugin(), new CssMinimizerPlugin()],
   },
   plugins: [new BundleAnalyzerPlugin(), new MiniCssExtractPlugin()],
-};
+} as const;
 
 export default config;
