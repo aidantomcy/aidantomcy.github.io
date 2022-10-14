@@ -3,8 +3,10 @@ import { BundleAnalyzerPlugin } from "webpack-bundle-analyzer";
 import * as TerserPlugin from "terser-webpack-plugin";
 import * as MiniCssExtractPlugin from "mini-css-extract-plugin";
 import * as CssMinimizerPlugin from "css-minimizer-webpack-plugin";
+import { Configuration } from "webpack";
+import "webpack-dev-server";
 
-const config = {
+const config: Configuration = {
   mode: "development",
   entry: {
     bundle: resolve(__dirname, "src/script.ts"),
@@ -58,6 +60,6 @@ const config = {
     minimizer: [new TerserPlugin(), new CssMinimizerPlugin()],
   },
   plugins: [new BundleAnalyzerPlugin(), new MiniCssExtractPlugin()],
-} as const;
+};
 
 export default config;
