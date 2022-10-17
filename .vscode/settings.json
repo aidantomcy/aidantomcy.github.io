@@ -3,7 +3,8 @@
     "**/playwright-report": true,
     "**/node_modules": true,
     "**/test-results": true,
-    "**/.dccache": true
+    "**/.dccache": true,
+    "**/CNAME": true
   },
   "files.associations": {
     "*.css": "tailwindcss"
@@ -21,7 +22,5 @@
     "strings": true
   },
   "workbench.editor.enablePreview": false,
-  "explorer.fileNesting.enabled": true,
-  "editor.stickyScroll.enabled": true,
-  "explorer.fileNesting.expand": false
+  "editor.stickyScroll.enabled": true
 }
