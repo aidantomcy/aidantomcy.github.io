@@ -13,6 +13,6 @@ jobs:
         with:
           version: latest
       - name: Install dependencies
-        run: pnpm
+        run: pnpm install
       - name: Run lint script
         run: pnpm lint
