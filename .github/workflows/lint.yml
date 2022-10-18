@@ -10,6 +10,8 @@ jobs:
         with:
           node-version: 16
       - uses: pnpm/action-setup@v2.0.1
+        with:
+          version: latest
       - name: Install dependencies
         run: pnpm
       - name: Run lint script
