@@ -10,6 +10,6 @@ end_of_line = crlf
 charset = utf-8
 trim_trailing_whitespace = false
 insert_final_newline = false
-[*.{html,scss,ts,js,json,css}]
+[*.{html,scss,ts,js,json,css,yml}]
 indent_size = 2
 insert_final_newline = true
