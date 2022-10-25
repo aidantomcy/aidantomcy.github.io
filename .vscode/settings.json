@@ -4,7 +4,8 @@
     "**/node_modules": true,
     "**/test-results": true,
     "**/.dccache": true,
-    "**/CNAME": true
+    "**/CNAME": true,
+    "**/dist": true
   },
   "files.associations": {
     "*.css": "tailwindcss"
