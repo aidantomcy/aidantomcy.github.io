@@ -26,7 +26,7 @@
     "@types/webpack-bundle-analyzer": "4.6.0",
     "@typescript-eslint/eslint-plugin": "5.41.0",
     "@typescript-eslint/parser": "5.41.0",
-    "autoprefixer": "10.4.12",
+    "autoprefixer": "10.4.13",
     "css-loader": "6.7.1",
     "css-minimizer-webpack-plugin": "4.2.2",
     "eslint": "8.26.0",
