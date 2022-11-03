@@ -5,7 +5,8 @@
     "**/test-results": true,
     "**/.dccache": true,
     "**/CNAME": true,
-    "**/dist": true
+    "**/dist": true,
+    "**/img": true
   },
   "files.associations": {
     "*.css": "tailwindcss"
