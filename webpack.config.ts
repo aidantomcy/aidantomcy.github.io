@@ -1,5 +1,4 @@
 import { resolve } from "path";
-import { BundleAnalyzerPlugin } from "webpack-bundle-analyzer";
 import * as TerserPlugin from "terser-webpack-plugin";
 import * as MiniCssExtractPlugin from "mini-css-extract-plugin";
 import * as CssMinimizerPlugin from "css-minimizer-webpack-plugin";
@@ -59,7 +58,7 @@ const config: Configuration = {
     minimize: true,
     minimizer: [new TerserPlugin(), new CssMinimizerPlugin()],
   },
-  plugins: [new BundleAnalyzerPlugin(), new MiniCssExtractPlugin()],
+  plugins: [new MiniCssExtractPlugin()],
 };
 
 export default config;
