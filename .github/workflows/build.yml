@@ -21,6 +21,6 @@ jobs:
         with:
           version: latest
       - name: Install dependencies
-        run: pnpm ci
+        run: pnpm install
       - name: Build
         run: pnpm build
