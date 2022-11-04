@@ -1,18 +1,15 @@
 import { test, expect } from "@playwright/test";
+import { baseURL, timeoutOptions } from "./constants";
 
-test("functionality to change theme is working as expected", async ({
-  page,
-}) => {
-  const port = 3000;
-  const baseUrl = `http://localhost:${port}`;
-  await page.goto(baseUrl, { timeout: 300000 });
+test("users can change the theme", async ({ page }) => {
+  await page.goto(baseURL, timeoutOptions);
 
   const updateThemeButton = page.locator("#dark-light-toggle");
   const body = page.locator("body");
 
-  await expect(updateThemeButton).toHaveText(/Let there be light/);
-  await expect(body).toHaveClass(/dark/);
+  await expect(updateThemeButton).toHaveText("Let there be light");
+  await expect(body).toHaveClass("dark");
   updateThemeButton.click();
-  await expect(updateThemeButton).toHaveText(/Let there be darkness/);
-  await expect(body).toHaveClass(/light/);
+  await expect(updateThemeButton).toHaveText("Let there be darkness");
+  await expect(body).toHaveClass("light");
 });
