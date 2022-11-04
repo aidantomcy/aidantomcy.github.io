@@ -15,7 +15,8 @@
     "format": "prettier --write .",
     "lint": "eslint .",
     "test": "playwright test",
-    "test:interactive": "playwright test --headed"
+    "test:interactive": "playwright test --headed",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
