@@ -20,7 +20,7 @@ specifiers:
   sass: 1.55.0
   sass-loader: 13.1.0
   style-loader: 3.3.1
-  tailwindcss: 3.2.1
+  tailwindcss: 3.2.2
   terser-webpack-plugin: 5.3.6
   ts-loader: 9.4.1
   ts-node: 10.9.1
@@ -49,7 +49,7 @@ devDependencies:
   sass: 1.55.0
   sass-loader: 13.1.0_sass@1.55.0+webpack@5.74.0
   style-loader: 3.3.1_webpack@5.74.0
-  tailwindcss: 3.2.1_neo3lunb2qpadwxplzw7r2isgm
+  tailwindcss: 3.2.2_neo3lunb2qpadwxplzw7r2isgm
   terser-webpack-plugin: 5.3.6_webpack@5.74.0
   ts-loader: 9.4.1_qqxisngxjbp7lstdk7boexbu3e
   ts-node: 10.9.1_cbe7ovvae6zqfnmtgctpgpys54
@@ -3855,8 +3855,8 @@ packages:
       stable: 0.1.8
     dev: true
 
-  /tailwindcss/3.2.1_neo3lunb2qpadwxplzw7r2isgm:
-    resolution: {integrity: sha512-Uw+GVSxp5CM48krnjHObqoOwlCt5Qo6nw1jlCRwfGy68dSYb/LwS9ZFidYGRiM+w6rMawkZiu1mEMAsHYAfoLg==}
+  /tailwindcss/3.2.2_neo3lunb2qpadwxplzw7r2isgm:
+    resolution: {integrity: sha512-c2GtSdqg+harR4QeoTmex0Ngfg8IIHNeLQH5yr2B9uZbZR1Xt1rYbjWOWTcj3YLTZhrmZnPowoQDbSRFyZHQ5Q==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     peerDependencies:
