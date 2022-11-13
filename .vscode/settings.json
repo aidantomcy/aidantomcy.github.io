@@ -1,4 +1,5 @@
 {
+  "workbench.editor.enablePreview": false,
   "files.exclude": {
     "**/playwright-report": true,
     "**/node_modules": true,
@@ -11,6 +12,12 @@
   "files.associations": {
     "*.css": "tailwindcss"
   },
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": "off",
+    "strings": true
+  },
+  "editor.stickyScroll.enabled": true,
   "tailwindCSS.files.exclude": [
     "**/.git/**",
     "**/node_modules/**",
@@ -18,11 +25,4 @@
     "**/dist/**"
   ],
   "tailwindCSS.emmetCompletions": true,
-  "editor.quickSuggestions": {
-    "other": true,
-    "comments": "off",
-    "strings": true
-  },
-  "workbench.editor.enablePreview": false,
-  "editor.stickyScroll.enabled": true
 }
