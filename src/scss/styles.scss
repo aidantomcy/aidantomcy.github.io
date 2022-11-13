@@ -127,18 +127,6 @@ a {
 }
 
 .about {
-  img {
-    width: 300px;
-    border-radius: 10%;
-    filter: grayscale(100%);
-    translate: 75% -75%;
-    margin-top: 1.5rem;
-
-    &:hover {
-      filter: grayscale(0%);
-    }
-  }
-
   p {
     width: clamp(50ch, 50%, 75ch);
   }
