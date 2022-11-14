@@ -7,7 +7,7 @@ specifiers:
   '@typescript-eslint/eslint-plugin': 5.42.1
   '@typescript-eslint/parser': 5.42.1
   autoprefixer: 10.4.13
-  css-loader: 6.7.1
+  css-loader: 6.7.2
   css-minimizer-webpack-plugin: 4.2.2
   eslint: 8.27.0
   husky: 8.0.2
@@ -36,7 +36,7 @@ devDependencies:
   '@typescript-eslint/eslint-plugin': 5.42.1_2udltptbznfmezdozpdoa2aemq
   '@typescript-eslint/parser': 5.42.1_rmayb2veg2btbq6mbmnyivgasy
   autoprefixer: 10.4.13_postcss@8.4.19
-  css-loader: 6.7.1_webpack@5.75.0
+  css-loader: 6.7.2_webpack@5.75.0
   css-minimizer-webpack-plugin: 4.2.2_webpack@5.75.0
   eslint: 8.27.0
   husky: 8.0.2
@@ -1217,8 +1217,8 @@ packages:
       postcss: 8.4.19
     dev: true
 
-  /css-loader/6.7.1_webpack@5.75.0:
-    resolution: {integrity: sha512-yB5CNFa14MbPJcomwNh3wLThtkZgcNyI2bNMRt8iE5Z8Vwl7f8vQXFAzn2HDOJvtDq2NTZBUGMSUNNyrv3/+cw==}
+  /css-loader/6.7.2_webpack@5.75.0:
+    resolution: {integrity: sha512-oqGbbVcBJkm8QwmnNzrFrWTnudnRZC+1eXikLJl0n4ljcfotgRifpg2a1lKy8jTrc4/d9A/ap1GFq1jDKG7J+Q==}
     engines: {node: '>= 12.13.0'}
     peerDependencies:
       webpack: ^5.0.0
