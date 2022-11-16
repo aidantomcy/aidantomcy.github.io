@@ -21,7 +21,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@playwright/test": "1.27.1",
+    "@playwright/test": "1.28.0",
     "@types/node": "18.11.9",
     "@types/webpack-bundle-analyzer": "4.6.0",
     "@typescript-eslint/eslint-plugin": "5.43.0",
