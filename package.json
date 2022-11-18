@@ -29,7 +29,7 @@
     "autoprefixer": "10.4.13",
     "css-loader": "6.7.2",
     "css-minimizer-webpack-plugin": "4.2.2",
-    "eslint": "8.27.0",
+    "eslint": "8.28.0",
     "husky": "8.0.2",
     "lint-staged": "13.0.3",
     "mini-css-extract-plugin": "2.7.0",
