@@ -30,7 +30,12 @@ const config: Configuration = {
     rules: [
       {
         test: /\.ts$/,
-        use: "ts-loader",
+        use: {
+          loader: "swc-loader",
+          options: {
+            parseMap: true,
+          },
+        },
         exclude: /node_modules/,
       },
       {
