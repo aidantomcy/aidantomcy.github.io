@@ -17,7 +17,7 @@ specifiers:
   postcss: 8.4.19
   postcss-loader: 7.0.1
   prettier: 2.8.0
-  prettier-plugin-tailwindcss: 0.1.13
+  prettier-plugin-tailwindcss: 0.2.0
   sass: 1.56.0
   sass-loader: 13.2.0
   swc-loader: ^0.2.3
@@ -46,7 +46,7 @@ devDependencies:
   postcss: 8.4.19
   postcss-loader: 7.0.1_upg3rk2kpasnbk27hkqapxaxfq
   prettier: 2.8.0
-  prettier-plugin-tailwindcss: 0.1.13_prettier@2.8.0
+  prettier-plugin-tailwindcss: 0.2.0_prettier@2.8.0
   sass: 1.56.0
   sass-loader: 13.2.0_sass@1.56.0+webpack@5.75.0
   swc-loader: 0.2.3_m6ts43cbrumgwklnqk62czebze
@@ -3374,8 +3374,8 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier-plugin-tailwindcss/0.1.13_prettier@2.8.0:
-    resolution: {integrity: sha512-/EKQURUrxLu66CMUg4+1LwGdxnz8of7IDvrSLqEtDqhLH61SAlNNUSr90UTvZaemujgl3OH/VHg+fyGltrNixw==}
+  /prettier-plugin-tailwindcss/0.2.0_prettier@2.8.0:
+    resolution: {integrity: sha512-Ruqig/mdWCSpqdq9WK44nrmqM4BFWTzBPhPGwC5NK3coV9eZntEQPB84MGZbjAg0XQU02jVRHXNRPREBzxvM+A==}
     engines: {node: '>=12.17.0'}
     peerDependencies:
       prettier: '>=2.2.0'
