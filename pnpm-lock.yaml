@@ -13,7 +13,7 @@ specifiers:
   eslint: 8.29.0
   husky: 8.0.2
   lint-staged: 13.1.0
-  mini-css-extract-plugin: 2.7.1
+  mini-css-extract-plugin: 2.7.2
   postcss: 8.4.19
   postcss-loader: 7.0.2
   prettier: 2.8.0
@@ -42,7 +42,7 @@ devDependencies:
   eslint: 8.29.0
   husky: 8.0.2
   lint-staged: 13.1.0
-  mini-css-extract-plugin: 2.7.1_webpack@5.75.0
+  mini-css-extract-plugin: 2.7.2_webpack@5.75.0
   postcss: 8.4.19
   postcss-loader: 7.0.2_upg3rk2kpasnbk27hkqapxaxfq
   prettier: 2.8.0
@@ -2648,8 +2648,8 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
-  /mini-css-extract-plugin/2.7.1_webpack@5.75.0:
-    resolution: {integrity: sha512-viOoaUFy+Z2w43VsGPbtfwFrr0tKwDctK9dUofG5MBViYhD1noGFUzzDIVw0KPwCGUP+c7zqLxm+acuQs7zLzw==}
+  /mini-css-extract-plugin/2.7.2_webpack@5.75.0:
+    resolution: {integrity: sha512-EdlUizq13o0Pd+uCp+WO/JpkLvHRVGt97RqfeGhXqAcorYo1ypJSpkV+WDT0vY/kmh/p7wRdJNJtuyK540PXDw==}
     engines: {node: '>= 12.13.0'}
     peerDependencies:
       webpack: ^5.0.0
