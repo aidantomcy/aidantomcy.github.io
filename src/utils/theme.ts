@@ -1,11 +1,9 @@
-/// <reference path="../types/theme.d.ts" />
-
-const themeConfig: ThemeTypes.ThemeConfig = {
+const themeConfig: ThemeConfig = {
   theme: "dark",
   btnText: "Let there be darkness",
 };
 
-const setTheme = (theme: ThemeTypes.Themes, btn: HTMLButtonElement): void => {
+const setTheme = (theme: Themes, btn: HTMLButtonElement): void => {
   themeConfig.btnText =
     theme === "dark" ? "Let there be light" : "Let there be darkness";
   btn.textContent = themeConfig.btnText;
