@@ -18,7 +18,7 @@ specifiers:
   postcss-loader: 7.0.2
   prettier: 2.8.1
   prettier-plugin-tailwindcss: 0.2.1
-  sass: 1.56.0
+  sass: 1.56.2
   sass-loader: 13.2.0
   swc-loader: ^0.2.3
   tailwindcss: 3.2.4
@@ -47,8 +47,8 @@ devDependencies:
   postcss-loader: 7.0.2_upg3rk2kpasnbk27hkqapxaxfq
   prettier: 2.8.1
   prettier-plugin-tailwindcss: 0.2.1_prettier@2.8.1
-  sass: 1.56.0
-  sass-loader: 13.2.0_sass@1.56.0+webpack@5.75.0
+  sass: 1.56.2
+  sass-loader: 13.2.0_sass@1.56.2+webpack@5.75.0
   swc-loader: 0.2.3_m6ts43cbrumgwklnqk62czebze
   tailwindcss: 3.2.4_v776zzvn44o7tpgzieipaairwm
   terser-webpack-plugin: 5.3.6_m6ts43cbrumgwklnqk62czebze
@@ -3577,7 +3577,7 @@ packages:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
     dev: true
 
-  /sass-loader/13.2.0_sass@1.56.0+webpack@5.75.0:
+  /sass-loader/13.2.0_sass@1.56.2+webpack@5.75.0:
     resolution: {integrity: sha512-JWEp48djQA4nbZxmgC02/Wh0eroSUutulROUusYJO9P9zltRbNN80JCBHqRGzjd4cmZCa/r88xgfkjGD0TXsHg==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
@@ -3598,12 +3598,12 @@ packages:
     dependencies:
       klona: 2.0.5
       neo-async: 2.6.2
-      sass: 1.56.0
+      sass: 1.56.2
       webpack: 5.75.0_3re6nytrjjckmrszfwnu2tqenu
     dev: true
 
-  /sass/1.56.0:
-    resolution: {integrity: sha512-WFJ9XrpkcnqZcYuLRJh5qiV6ibQOR4AezleeEjTjMsCocYW59dEG19U3fwTTXxzi2Ed3yjPBp727hbbj53pHFw==}
+  /sass/1.56.2:
+    resolution: {integrity: sha512-ciEJhnyCRwzlBCB+h5cCPM6ie/6f8HrhZMQOf5vlU60Y1bI1rx5Zb0vlDZvaycHsg/MqFfF1Eq2eokAa32iw8w==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     dependencies:
