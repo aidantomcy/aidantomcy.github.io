@@ -30,7 +30,7 @@
     "autoprefixer": "10.4.13",
     "css-loader": "6.7.3",
     "css-minimizer-webpack-plugin": "4.2.2",
-    "eslint": "8.29.0",
+    "eslint": "8.30.0",
     "husky": "8.0.2",
     "lightningcss": "^1.17.1",
     "lint-staged": "13.1.0",
