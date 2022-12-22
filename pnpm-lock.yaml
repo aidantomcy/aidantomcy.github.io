@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@playwright/test': 1.29.0
+  '@playwright/test': 1.29.1
   '@swc/core': ^1.3.18
   '@types/node': 18.11.17
   '@types/webpack-bundle-analyzer': 4.6.0
@@ -31,7 +31,7 @@ specifiers:
   webpack-dev-server: 4.11.1
 
 devDependencies:
-  '@playwright/test': 1.29.0
+  '@playwright/test': 1.29.1
   '@swc/core': 1.3.18
   '@types/node': 18.11.17
   '@types/webpack-bundle-analyzer': 4.6.0_3re6nytrjjckmrszfwnu2tqenu
@@ -220,13 +220,13 @@ packages:
       fastq: 1.13.0
     dev: true
 
-  /@playwright/test/1.29.0:
-    resolution: {integrity: sha512-gp5PVBenxTJsm2bATWDNc2CCnrL5OaA/MXQdJwwkGQtqTjmY+ZOqAdLqo49O9MLTDh2vYh+tHWDnmFsILnWaeA==}
+  /@playwright/test/1.29.1:
+    resolution: {integrity: sha512-iQxk2DX5U9wOGV3+/Jh9OHPsw5H3mleUL2S4BgQuwtlAfK3PnKvn38m4Rg9zIViGHVW24opSm99HQm/UFLEy6w==}
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
       '@types/node': 18.11.17
-      playwright-core: 1.29.0
+      playwright-core: 1.29.1
     dev: true
 
   /@sinclair/typebox/0.24.51:
@@ -3052,8 +3052,8 @@ packages:
       find-up: 4.1.0
     dev: true
 
-  /playwright-core/1.29.0:
-    resolution: {integrity: sha512-pboOm1m0RD6z1GtwAbEH60PYRfF87vKdzOSRw2RyO0Y0a7utrMyWN2Au1ojGvQr4umuBMODkKTv607YIRypDSQ==}
+  /playwright-core/1.29.1:
+    resolution: {integrity: sha512-20Ai3d+lMkWpI9YZYlxk8gxatfgax5STW8GaMozAHwigLiyiKQrdkt7gaoT9UQR8FIVDg6qVXs9IoZUQrDjIIg==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
