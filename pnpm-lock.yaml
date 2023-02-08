@@ -17,7 +17,7 @@ specifiers:
   mini-css-extract-plugin: 2.7.2
   postcss: 8.4.21
   postcss-loader: 7.0.2
-  prettier: 2.8.3
+  prettier: 2.8.4
   prettier-plugin-tailwindcss: 0.2.2
   sass: 1.57.1
   sass-loader: 13.2.0
@@ -47,8 +47,8 @@ devDependencies:
   mini-css-extract-plugin: 2.7.2_webpack@5.75.0
   postcss: 8.4.21
   postcss-loader: 7.0.2_6jdsrmfenkuhhw3gx4zvjlznce
-  prettier: 2.8.3
-  prettier-plugin-tailwindcss: 0.2.2_prettier@2.8.3
+  prettier: 2.8.4
+  prettier-plugin-tailwindcss: 0.2.2_prettier@2.8.4
   sass: 1.57.1
   sass-loader: 13.2.0_sass@1.57.1+webpack@5.75.0
   swc-loader: 0.2.3_m6ts43cbrumgwklnqk62czebze
@@ -3471,7 +3471,7 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier-plugin-tailwindcss/0.2.2_prettier@2.8.3:
+  /prettier-plugin-tailwindcss/0.2.2_prettier@2.8.4:
     resolution: {integrity: sha512-5RjUbWRe305pUpc48MosoIp6uxZvZxrM6GyOgsbGLTce+ehePKNm7ziW2dLG2air9aXbGuXlHVSQQw4Lbosq3w==}
     engines: {node: '>=12.17.0'}
     peerDependencies:
@@ -3520,11 +3520,11 @@ packages:
       prettier-plugin-twig-melody:
         optional: true
     dependencies:
-      prettier: 2.8.3
+      prettier: 2.8.4
     dev: true
 
-  /prettier/2.8.3:
-    resolution: {integrity: sha512-tJ/oJ4amDihPoufT5sM0Z1SKEuKay8LfVAMlbbhnnkvt6BUserZylqo2PN+p9KeljLr0OHa2rXHU1T8reeoTrw==}
+  /prettier/2.8.4:
+    resolution: {integrity: sha512-vIS4Rlc2FNh0BySk3Wkd6xmwxB0FpOndW5fisM5H8hsZSxU2VWVB5CWIkIjWvrHjIhxk2g3bfMKM87zNTrZddw==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
