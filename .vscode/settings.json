@@ -1,0 +1,22 @@
+{
+  "workbench.editor.enablePreview": false,
+  "files.exclude": {
+    "**/playwright-report": true,
+    "**/node_modules": true,
+    "**/test-results": true,
+    "**/.dccache": true,
+    "**/CNAME": true,
+    "**/dist": true,
+    "**/img": true
+  },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "tailwindCSS.files.exclude": [
+    "**/.git/**",
+    "**/node_modules/**",
+    "**/.hg/**",
+    "**/dist/**"
+  ],
+  "tailwindCSS.emmetCompletions": true
+}
