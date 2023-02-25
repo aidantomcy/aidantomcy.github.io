@@ -1,3 +1,7 @@
+---
+import FooterLink from "./FooterLink.astro";
+---
+
 <footer
   class="mx-auto mb-8 flex w-full max-w-2xl flex-col items-start justify-center text-center"
 >
@@ -12,33 +16,28 @@
       <a href="/#stuff-i-use">Stuff I Use</a>
     </div>
     <div class="flex flex-col space-y-4">
-      <a target="_blank" rel="noopener noreferrer" href="/projects.html"
-        >Projects</a
-      >
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://github.com/aidantomcy">GitHub</a
-      ><a
-        target="_blank"
-        rel="noopener noreferrer"
+      <FooterLink text="Projects" href="/projects.html" />
+      <FooterLink text="GitHub" href="https://github.com/aidantomcy" />
+      <FooterLink
+        text="Stack Overflow"
         href="https://stackoverflow.com/users/15765063/aidan-tomcy"
-        >Stack Overflow</a
-      ><a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://codepen.io/aidantomcy">CodePen</a
-      >
+      />
+      <FooterLink text="CodePen" href="https://codepen.io/aidantomcy" />
     </div>
     <div class="flex flex-col space-y-4">
-      <a href="https://replit.com/@AidanTomcy">Replit</a>
-      <a href="https://www.codewars.com/users/AidanTomcy">Codewars</a>
-      <a href="https://codegrepper.com/profile/aidan-idqzkhobs5xn"
-        >Code Grepper</a
-      >
-      <a href="https://open.spotify.com/user/us7xaidyrndzw7r3kr6thoeed"
-        >Spotify</a
-      >
+      <FooterLink text="Replit" href="https://replit.com/@aidantomcy" />
+      <FooterLink
+        text="Codewars"
+        href="https://www.codewars.com/users/AidanTomcy"
+      />
+      <FooterLink
+        text="Code Grepper"
+        href="https://codegrepper.com/profile/aidan-idqzkhobs5xn"
+      />
+      <FooterLink
+        text="Spotify"
+        href="https://open.spotify.com/user/us7xaidyrndzw7r3kr6thoeed"
+      />
     </div>
   </div>
 </footer>
