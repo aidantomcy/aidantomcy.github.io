@@ -12,17 +12,11 @@
   "files.associations": {
     "*.css": "tailwindcss"
   },
-  "editor.quickSuggestions": {
-    "other": true,
-    "comments": "off",
-    "strings": true
-  },
-  "editor.stickyScroll.enabled": true,
   "tailwindCSS.files.exclude": [
     "**/.git/**",
     "**/node_modules/**",
     "**/.hg/**",
     "**/dist/**"
   ],
-  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.emmetCompletions": true
 }
