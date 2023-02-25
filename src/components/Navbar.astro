@@ -1,4 +1,5 @@
 ---
+import NavItem from "./NavItem.astro";
 import ThemeButton from "./ThemeButton.svelte";
 ---
 
@@ -10,30 +11,10 @@ import ThemeButton from "./ThemeButton.svelte";
     >
       Home
     </a>
-    <a
-      class="text-xl font-normal hidden md:inline-block p-1 sm:px-3 sm:py-2 rounded-lg hover:cursor-pointer hover:bg-gray-200 hover:text-black dark:hover:bg-dark-secondary dark:hover:text-white transition-all text-gray-400"
-      href="/#about"
-    >
-      About
-    </a>
-    <a
-      class="text-xl font-normal hidden md:inline-block p-1 sm:px-3 sm:py-2 rounded-lg hover:cursor-pointer hover:bg-gray-200 hover:text-black dark:hover:bg-dark-secondary dark:hover:text-white transition-all text-gray-400"
-      href="/#contact"
-    >
-      Contact
-    </a>
-    <a
-      class="text-xl font-normal hidden md:inline-block p-1 sm:px-3 sm:py-2 rounded-lg hover:cursor-pointer hover:bg-gray-200 hover:text-black dark:hover:bg-dark-secondary dark:hover:text-white transition-all text-gray-400"
-      href="/#stuff-i-use"
-    >
-      Stuff I Use
-    </a>
-    <a
-      class="text-xl font-normal hidden md:inline-block p-1 sm:px-3 sm:py-2 rounded-lg hover:cursor-pointer hover:bg-gray-200 hover:text-black dark:hover:bg-dark-secondary dark:hover:text-white transition-all text-gray-400"
-      href="/#projects"
-    >
-      Projects
-    </a>
+    <NavItem text="About" href="/#about" />
+    <NavItem text="Contact" href="/#contact" />
+    <NavItem text="Stuff I Use" href="/#stuff-i-use" />
+    <NavItem text="Projects" href="/#projects" />
   </div>
   <ThemeButton client:load />
 </nav>
