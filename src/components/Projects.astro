@@ -43,13 +43,23 @@ import Card from "./Card.astro";
 </div>
 
 <style>
-  .projects {
+  html.dark .projects {
     --accent: 123, 58, 237;
     --accent-gradient: linear-gradient(
       44deg,
       rgb(var(--accent)),
       #fa8142 30%,
       #313131 59%
+    );
+  }
+
+  .projects {
+    --accent: 123, 58, 237;
+    --accent-gradient: linear-gradient(
+      44deg,
+      rgb(var(--accent)),
+      #fa8142 30%,
+      #e4e4e7 59%
     );
   }
 </style>
