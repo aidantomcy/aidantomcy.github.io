@@ -1,6 +1,6 @@
----
-import FooterLink from "./FooterLink.astro";
----
+<script lang="ts">
+  import FooterLink from "./FooterLink.svelte";
+</script>
 
 <footer
   class="mx-auto mb-8 flex w-full max-w-2xl flex-col items-start justify-center text-center"

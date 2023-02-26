@@ -1,6 +1,6 @@
----
-import Card from "./Card.astro";
----
+<script lang="ts">
+  import Card from "./Card.svelte";
+</script>
 
 <div class="projects">
   <div
@@ -43,7 +43,7 @@ import Card from "./Card.astro";
 </div>
 
 <style>
-  html.dark .projects {
+  :root.dark {
     --accent: 123, 58, 237;
     --accent-gradient: linear-gradient(
       44deg,
@@ -53,7 +53,7 @@ import Card from "./Card.astro";
     );
   }
 
-  .projects {
+  :root {
     --accent: 123, 58, 237;
     --accent-gradient: linear-gradient(
       44deg,
