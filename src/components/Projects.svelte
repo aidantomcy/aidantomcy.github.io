@@ -2,7 +2,7 @@
   import Card from "./Card.svelte";
 </script>
 
-<div class="projects">
+<div class="projects" id="projects">
   <div
     class="font-bold text-3xl md:text-4xl tracking-tight mb-6 text-black dark:text-white mt-16 ml-[27rem]"
   >
