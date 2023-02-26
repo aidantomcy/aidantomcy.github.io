@@ -14,6 +14,7 @@
       src={`/${tool}.svg`}
       alt=""
       class="w-10 grayscale hover:grayscale-0 pr-1"
+      loading="lazy"
     />
   {/each}
 </div>
