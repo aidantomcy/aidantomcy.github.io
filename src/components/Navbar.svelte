@@ -14,9 +14,9 @@
       Home
     </a>
     <NavItem text="About" href="/#about" />
-    <NavItem text="Contact" href="/#contact" />
-    <NavItem text="Stuff I Use" href="/#stuff-i-use" />
     <NavItem text="Projects" href="/#projects" />
+    <NavItem text="Stuff I Use" href="/#stuff-i-use" />
+    <NavItem text="Contact" href="/#contact" />
   </div>
   <ThemeButton />
 </nav>
