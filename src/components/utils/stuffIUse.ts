@@ -4,6 +4,7 @@ export const stuffIUse = [
   "python",
   "php",
   "javascript",
+  "svelte",
   "reactjs",
   "nextjs",
   "sass",
