@@ -4,4 +4,5 @@ import svelte from "@astrojs/svelte";
 
 export default defineConfig({
   integrations: [tailwind(), svelte()],
+  site: 'https://aidantomcy.github.io',
 });
