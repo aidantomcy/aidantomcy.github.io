@@ -13,7 +13,7 @@
     <img
       src={`/${tool}.svg`}
       alt=""
-      class="w-10 grayscale hover:grayscale-0 pr-1"
+      class="w-10 pr-1"
       loading="lazy"
     />
   {/each}
