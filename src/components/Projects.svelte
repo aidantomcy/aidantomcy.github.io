@@ -2,26 +2,26 @@
   import Card from "./Card.svelte";
 </script>
 
-<div class="projects" id="projects">
+<section class="mx-8" id="projects">
   <div
-    class="font-bold text-3xl md:text-4xl tracking-tight mb-6 text-black dark:text-white mt-16 ml-[27rem]"
+    class="font-bold text-2xl md:text-4xl tracking-wide mb-6 text-black dark:text-white mt-16"
   >
     Projects
   </div>
-  <div class="grid grid-cols-2 mr-96 ml-[27rem]">
+  <div class="grid grid-cols-1 place-items-center md:grid-cols-2 w-full">
     <Card
       title="Gospel Exhibition"
-      body="This is a website for a Sunday school project of mine, made with Express, MongoDB, Next.js and Tailwind CSS."
+      body="Website for a Sunday school project of mine, made with Next.js, Prisma and Tailwind CSS."
       repo="gospel-exhibition"
     />
     <Card
       title="Saints for Us"
-      body="This is a website about a few Catholic saints, whose intercession we rely on in our day-to-day lives."
+      body="Website about a few Catholic saints, whose intercession we rely on in our day-to-day lives."
       repo="saintsforus"
     />
     <Card
-      title="PyMon"
-      body="PyMon is a command line utility that helps you develop Python applications by re-running the application whenever file changes are detected in the directory."
+      title="pymon"
+      body="A tool that auto-restarts your Python app on file changes for easier development."
       repo="pymon"
     />
     <Card
@@ -40,26 +40,4 @@
       repo="discord-bot"
     />
   </div>
-</div>
-
-<style>
-  :root.dark {
-    --accent: 123, 58, 237;
-    --accent-gradient: linear-gradient(
-      44deg,
-      rgb(var(--accent)),
-      #fa8142 30%,
-      #313131 59%
-    );
-  }
-
-  :root {
-    --accent: 123, 58, 237;
-    --accent-gradient: linear-gradient(
-      44deg,
-      rgb(var(--accent)),
-      #fa8142 30%,
-      #e4e4e7 59%
-    );
-  }
-</style>
+</section>
