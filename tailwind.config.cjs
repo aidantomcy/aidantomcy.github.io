@@ -5,8 +5,8 @@ module.exports = {
     extend: {
       colors: {
         "light-orange": "#fa8142",
-        "dark-primary": "#1f1f1f",
-        "dark-secondary": "#313131",
+        "dark-primary": "#111010",
+        "dark-secondary": "#1f1f1f",
         "text-gray": "#ccc",
       },
       fontFamily: {
@@ -14,6 +14,5 @@ module.exports = {
       },
     },
   },
-  darkMode: "class",
   plugins: [],
 };
