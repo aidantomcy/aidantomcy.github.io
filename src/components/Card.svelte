@@ -1,5 +1,5 @@
 <script lang="ts">
-    import ArrowUpRight from "./_icons/ArrowUpRight.svelte";
+  import ArrowUpRight from "./_icons/ArrowUpRight.svelte";
 
   export let title: string;
   export let body: string;
@@ -7,36 +7,19 @@
 </script>
 
 <li
-  class="link-card rounded-xl list-none flex p-4 bg-gray-200 dark:bg-dark-secondary w-80 h-48 hover:scale-[1.01] transition-all mb-4 text-gray-900 dark:text-gray-200 hover:text-white"
+  class="rounded-xl list-none flex bg-gray-200 dark:bg-dark-secondary hover:scale-[1.02] w-full transition-all my-2 text-gray-900 dark:text-gray-200 dark:hover:text-white px-4 py-6 md:h-52 lg:h-56 lg:py-4 md:w-[96%]"
 >
   <a
     href={`https://github.com/aidantomcy/${repo}`}
     class="w-full leading-5 p-1 opacity-80"
     target="_blank"
   >
-    <h2
-      class="pb-2 m-0 text-xl [transition:color_0.6s_cubic-bezier(0.22,1,0.36,1);]"
-    >
+    <h2 class="pb-2 m-0 text-xl">
       {title}
-        <ArrowUpRight />
+      <ArrowUpRight />
     </h2>
-    <p class="mt-2 mb-0">
+    <p class="mt-2 mb-0 overflow-ellipsis">
       {body}
     </p>
   </a>
 </li>
-
-<style>
-  .link-card {
-    background-image: var(--accent-gradient);
-    background-size: 400%;
-    background-position: 100%;
-    transition: background-position 0.4s cubic-bezier(0.22, 1, 0.36, 1);
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
-      0 2px 4px -2px rgba(0, 0, 0, 0.1);
-  }
-
-  .link-card:is(:hover, :focus-within) {
-    background-position: 0;
-  }
-</style>
