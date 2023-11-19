@@ -4,8 +4,12 @@
 </script>
 
 <a
-  class="text-xl font-normal hidden md:inline-block p-1 sm:px-3 sm:py-2 rounded-lg text-gray-700 hover:cursor-pointer hover:bg-gray-200 hover:text-black dark:hover:bg-dark-secondary dark:hover:text-white dark:text-gray-400 transition-all"
+  class="text-lg p-0 rounded-lg text-gray-700 dark:text-gray-400 w-auto hover:underline hover:decoration-sky-500 hover:decoration-wavy"
   {href}
 >
-  {text}
+  {#if text === "home"}
+    <span class="dark:text-white font-semibold">{text}</span>
+  {:else}
+    {text}
+  {/if}
 </a>
