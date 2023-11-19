@@ -8,12 +8,16 @@ export interface Props {
 const { title } = Astro.props;
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" class="dark overflow-x-hidden">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="generator" content={Astro.generator} />
+    <meta
+      name="description"
+      content="Aidan Tomcy | TypeScript and Rust developer."
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,8 +26,12 @@ const { title } = Astro.props;
     />
     <title>{title}</title>
   </head>
-  <body class="font-inter dark:bg-dark-primary dark:text-gray-50 md:flex md:flex-col md:items-center">
-    <main class="w-full lg:w-1/2 md:w-3/4 md:flex md:flex-col md:justify-center">
+  <body
+    class="font-inter dark:bg-dark-primary dark:text-gray-50 md:flex md:flex-col md:items-center"
+  >
+    <main
+      class="w-full lg:w-1/2 md:w-3/4 md:flex md:flex-col md:justify-center"
+    >
       <Navbar client:load />
       <slot />
     </main>
