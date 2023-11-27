@@ -5,7 +5,7 @@
 <section class="mx-8">
   <div
     class="font-bold text-2xl md:text-4xl tracking-tight mb-6 text-black dark:text-white mt-16"
-    id="contact"
+    id="about"
   >
     About
   </div>
