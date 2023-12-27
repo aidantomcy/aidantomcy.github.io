@@ -1,5 +1,5 @@
 <script>
-  import ArrowUpRight from "./_icons/ArrowUpRight.svelte";
+  import Song from "./Song.svelte";
 </script>
 
 <section class="mx-8">
@@ -22,5 +22,7 @@
     <li>🌱 I'm learning SvelteKit</li>
     <li>🔥 I love blazingly fast software</li>
     <li>⚡ Vim is my favorite text editor</li>
+    <li>🎵 My top song is "It's My Life"</li>
   </ul>
+  <Song />
 </section>
