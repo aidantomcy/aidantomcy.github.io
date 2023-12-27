@@ -7,7 +7,7 @@
 </script>
 
 <div
-  class="rounded-xl list-none flex bg-gray-200 dark:bg-dark-secondary hover:scale-[1.02] w-full transition-all my-2 text-gray-900 dark:text-gray-200 dark:hover:text-white px-4 py-6 md:h-52 lg:h-56 lg:py-4 md:w-[96%]"
+  class="rounded-2xl list-none flex bg-gray-200 dark:bg-dark-secondary hover:scale-[1.02] w-full transition-all my-2 text-gray-900 dark:text-gray-200 dark:hover:text-white px-4 py-6 md:h-52 lg:h-56 lg:py-4 md:w-[96%]"
 >
   <a
     href={`https://github.com/aidantomcy/${repo}`}
