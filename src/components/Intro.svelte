@@ -6,6 +6,6 @@
     </div>
   </div>
   <div>
-    <img src="/aidan.jpg" alt="" class="w-40 rounded-2xl lg:w-48" />
+    <img src="/aidan.jpg" alt="aidan tomcy" class="w-40 rounded-2xl lg:w-48" />
   </div>
 </section>

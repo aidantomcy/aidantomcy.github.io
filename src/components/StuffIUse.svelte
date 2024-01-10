@@ -11,7 +11,7 @@
   </div>
   <div class="flex flex-wrap">
     {#each stuffIUse as tool}
-      <img src={`/${tool}.svg`} alt="" class="w-10 pr-1" loading="lazy" />
+      <img src={`/${tool}.svg`} alt={tool} class="w-10 pr-1" loading="lazy" />
     {/each}
   </div>
 </section>
