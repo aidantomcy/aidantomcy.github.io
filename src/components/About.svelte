@@ -1,7 +1,3 @@
-<script>
-  import Song from "./Song.svelte";
-</script>
-
 <section class="mx-8">
   <div
     class="font-bold text-2xl md:text-4xl tracking-tight mb-6 text-black dark:text-white mt-16"
@@ -24,5 +20,4 @@
     <li>⚡ Vim is my favorite text editor</li>
     <li>🎵 My top song is "It's My Life"</li>
   </ul>
-  <Song />
 </section>
