@@ -4,13 +4,11 @@ export const stuffIUse = [
   "python",
   "php",
   "javascript",
+  "astro",
   "svelte",
   "reactjs",
   "nextjs",
-  "sass",
   "tailwindcss",
   "expressjs",
   "playwright",
-  "mongodb",
-  "postgres"
 ];
