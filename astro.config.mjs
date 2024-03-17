@@ -1,10 +1,13 @@
 import { defineConfig } from "astro/config";
 import tailwind from "@astrojs/tailwind";
 import svelte from "@astrojs/svelte";
-import partytown from "@astrojs/partytown";
+import vercel from "@astrojs/vercel/serverless";
 
 // https://astro.build/config
 export default defineConfig({
   integrations: [tailwind(), svelte(), partytown()],
-  site: 'https://aidantomcy.github.io'
+  output: 'server',
+  adapter: vercel({
+    webAnalytics: { enabled: true }
+  }),
 });
