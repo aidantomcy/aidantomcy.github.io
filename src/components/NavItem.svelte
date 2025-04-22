@@ -1,6 +1,7 @@
 <script lang="ts">
-  export let text: string;
-  export let href: string;
+  type Props = { text: string; href: string };
+
+  let { text, href }: Props = $props();
 </script>
 
 <a

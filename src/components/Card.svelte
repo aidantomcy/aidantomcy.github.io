@@ -1,9 +1,8 @@
 <script lang="ts">
   import ArrowUpRight from "./_icons/ArrowUpRight.svelte";
 
-  export let title: string;
-  export let body: string;
-  export let repo: string;
+  type Props = { title: string; body: string; repo: string };
+  let { title, body, repo }: Props = $props();
 </script>
 
 <div
