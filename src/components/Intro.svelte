@@ -6,6 +6,10 @@
     </div>
   </div>
   <div>
-    <img src="/aidan.webp" alt="aidan tomcy" class="w-40 rounded-2xl lg:w-48" />
+    <img
+      src="/aidan.webp"
+      alt="aidan tomcy"
+      class="size-40 rounded-2xl lg:size-48"
+    />
   </div>
 </section>
