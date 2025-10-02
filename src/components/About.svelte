@@ -18,6 +18,5 @@
     <li>🌱 I'm learning SvelteKit</li>
     <li>🔥 I love blazingly fast software</li>
     <li>⚡ Vim is my favorite text editor</li>
-    <li>🎵 My top song is "It's My Life"</li>
   </ul>
 </section>
