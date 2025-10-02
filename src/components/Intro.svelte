@@ -9,7 +9,7 @@
     <img
       src="/aidan.webp"
       alt="aidan tomcy"
-      class="size-40 rounded-2xl lg:size-48"
+      class="size-40 rounded-[2rem] lg:size-48"
     />
   </div>
 </section>

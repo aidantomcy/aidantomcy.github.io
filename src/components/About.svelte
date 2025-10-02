@@ -11,7 +11,7 @@
     <li>
       🔭 I'm working on <a
         href="https://github.com/aidantomcy/pymon"
-        class="underline"
+        class="underline decoration-wavy"
         target="_blank">pymon</a
       >
     </li>
